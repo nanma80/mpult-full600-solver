@@ -1,0 +1,23 @@
+[
+  {
+    "input": "full_scramble.log",
+    "status": "PASS (user-reported application solve)",
+    "colors": 259800,
+    "actual_log_compared": false,
+    "solution_moves": 7943906
+  },
+  {
+    "input": "full_scramble_02.log",
+    "status": "PASS",
+    "colors": 259800,
+    "actual_log_compared": true,
+    "solution_moves": 7985585
+  },
+  {
+    "input": "full_scramble_03.log",
+    "status": "PASS",
+    "colors": 259800,
+    "actual_log_compared": true,
+    "solution_moves": 7982494
+  }
+]

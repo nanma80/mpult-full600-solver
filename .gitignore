@@ -1,0 +1,9 @@
+# Reproducible outputs and user-local dependencies. Essential analysis/*.bin files ARE tracked.
+/runs/
+/outputs/
+/local/
+/MoveEngine.exe
+/Microsoft.DirectX*.dll
+__pycache__/
+*.py[cod]
+.venv/

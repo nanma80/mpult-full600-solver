@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/cutelyaware/MPUlt",
+  "commit": "0e2b86cbb713b8286083fa964ea67d6582337d5a",
+  "license_notice": "LICENSE",
+  "purpose": "Reference geometry and macro reader; MPUlt1.55 application is the behavioral authority"
+}

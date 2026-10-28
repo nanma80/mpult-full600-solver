@@ -1,0 +1,654 @@
+{
+  "piece_count": 177120,
+  "piece_orbit_count": 635,
+  "fixed_piece_orbits": 600,
+  "movable_piece_orbits": 35,
+  "piece_sticker_count_distribution": {
+    "1": 107400,
+    "2": 66000,
+    "5": 3600,
+    "20": 120
+  },
+  "movable_orbits": [
+    {
+      "orbit": 1,
+      "piece_count": 1200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        1,
+        1
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "1": 1200
+      },
+      "uniquely_identifiable_by_colors": true
+    },
+    {
+      "orbit": 2,
+      "piece_count": 3600,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        2
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "6": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 3,
+      "piece_count": 3600,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        3,
+        3
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "3": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 4,
+      "piece_count": 720,
+      "stickers_per_piece": 5,
+      "sticker_orbit_composition": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "distinct_color_identities": 720,
+      "identity_multiplicity_distribution": {
+        "1": 720
+      },
+      "uniquely_identifiable_by_colors": true
+    },
+    {
+      "orbit": 5,
+      "piece_count": 2400,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        5
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "4": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 6,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        6
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 7,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        7
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 8,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        8
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 9,
+      "piece_count": 3600,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        9,
+        9
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "3": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 10,
+      "piece_count": 7200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        10,
+        11
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "6": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 11,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        12
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 12,
+      "piece_count": 7200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        13,
+        14
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "6": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 13,
+      "piece_count": 1440,
+      "stickers_per_piece": 5,
+      "sticker_orbit_composition": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "distinct_color_identities": 720,
+      "identity_multiplicity_distribution": {
+        "2": 720
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 14,
+      "piece_count": 3600,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        16,
+        16
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "3": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 15,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        17
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 16,
+      "piece_count": 7200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        18,
+        21
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "6": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 17,
+      "piece_count": 7200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        19,
+        22
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "6": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 18,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        20
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 19,
+      "piece_count": 2400,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        23
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "4": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 20,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        24
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 21,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        25
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 22,
+      "piece_count": 3600,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        26,
+        26
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "3": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 23,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        27
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 24,
+      "piece_count": 7200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        28,
+        29
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "6": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 25,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        30
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 26,
+      "piece_count": 1440,
+      "stickers_per_piece": 5,
+      "sticker_orbit_composition": [
+        31,
+        31,
+        31,
+        31,
+        31
+      ],
+      "distinct_color_identities": 720,
+      "identity_multiplicity_distribution": {
+        "2": 720
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 27,
+      "piece_count": 3600,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        32,
+        32
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "3": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 28,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        33
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 29,
+      "piece_count": 7200,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        34,
+        36
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "6": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 30,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        35
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 31,
+      "piece_count": 2400,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        37
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "4": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 32,
+      "piece_count": 7200,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        38
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "12": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 33,
+      "piece_count": 3600,
+      "stickers_per_piece": 2,
+      "sticker_orbit_composition": [
+        39,
+        39
+      ],
+      "distinct_color_identities": 1200,
+      "identity_multiplicity_distribution": {
+        "3": 1200
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 34,
+      "piece_count": 2400,
+      "stickers_per_piece": 1,
+      "sticker_orbit_composition": [
+        40
+      ],
+      "distinct_color_identities": 600,
+      "identity_multiplicity_distribution": {
+        "4": 600
+      },
+      "uniquely_identifiable_by_colors": false
+    },
+    {
+      "orbit": 35,
+      "piece_count": 120,
+      "stickers_per_piece": 20,
+      "sticker_orbit_composition": [
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41,
+        41
+      ],
+      "distinct_color_identities": 120,
+      "identity_multiplicity_distribution": {
+        "1": 120
+      },
+      "uniquely_identifiable_by_colors": true
+    }
+  ],
+  "state_checks": [
+    {
+      "file": "full_scramble.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "5d408455802d7a65ab812a825fa9ec71b29c18fcc2ed85d5ad2212e81853c4c1"
+    },
+    {
+      "file": "one_move.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "97af2660a4a0ba42d7928352004b1f55539765076acaa3dbcc79b9b6fe2b42c9"
+    },
+    {
+      "file": "one_move_white_cell_around_a_face.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "97af2660a4a0ba42d7928352004b1f55539765076acaa3dbcc79b9b6fe2b42c9"
+    },
+    {
+      "file": "one_move_white_cell_around_bottom_corner_reverse.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "97af2660a4a0ba42d7928352004b1f55539765076acaa3dbcc79b9b6fe2b42c9"
+    },
+    {
+      "file": "one_move_white_cell_around_bottom_face_reverse.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "ed113875e75eafc42ea614de566c07d5b627cad53d7a840aabd74f28e1b6ba1d"
+    },
+    {
+      "file": "one_move_white_cell_around_bottom_left_edge_reverse.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "22f0399ea393ef7909a0aa0d6debff9afd13dc1dd5e2f401da7e21a764e36a57"
+    },
+    {
+      "file": "one_move_white_cell_around_front_edge.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "56135ed8843f277b1ee00292872c981e7879651420eaf6340f2f2b472de45f36"
+    },
+    {
+      "file": "one_move_white_cell_around_left_corner.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "f389d31a5a589762dad3a54dfd561508a716f742fff84892f7ff584d7ff45e7c"
+    },
+    {
+      "file": "one_move_white_cell_around_right_corner.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "6010b4d4f59cc9cf1f657100dd985d27c505188546d505a07b61894a7429205c"
+    },
+    {
+      "file": "reset_state.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "reset_state_no_move.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "scramble_by_1_move.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "d75460d3015b0c5d5c667b3010d2b005751b50bdab148a05843fedf5dfb8ce59"
+    },
+    {
+      "file": "scramble_by_3_moves.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "0cc6511906a54e114759ca5df6a6044ae520ed7080a664bf06aafec5ca7fdec9"
+    },
+    {
+      "file": "two_moves.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "199308d2a37b0773831808bb354d4e0b5dfd77f758819169796a5d3998fb1291"
+    },
+    {
+      "file": "use_one_move_macro_forward_and_backward.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "macro_01_forward.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "97af2660a4a0ba42d7928352004b1f55539765076acaa3dbcc79b9b6fe2b42c9"
+    },
+    {
+      "file": "macro_01_roundtrip.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "macro_02_forward.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "22f0399ea393ef7909a0aa0d6debff9afd13dc1dd5e2f401da7e21a764e36a57"
+    },
+    {
+      "file": "macro_02_roundtrip.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "macro_03_forward.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "8f04f624906149868de049894a83433990b1e19f7802ffbf210f4ed892399c52"
+    },
+    {
+      "file": "macro_03_roundtrip.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "start_from_03_use_macro_03_backward.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    },
+    {
+      "file": "state_only_macro_03_reversed.color.json",
+      "pieces_checked": 177120,
+      "identity_multiplicities_preserved": true,
+      "sha256": "548f0e7dcc689b7023f7bdf049411aad988e233f8abcedfb8469a6ffa67744fa"
+    }
+  ],
+  "solver_boundary_metadata_rejection": "PASS"
+}

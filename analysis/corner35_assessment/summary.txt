@@ -1,0 +1,9 @@
+orbit=35
+root_piece=432
+single_rotation_closure=5
+nontrivial_elementary_root_stabilizers=20
+best_two_rotation_closure=60
+corner_position_solver_evaluated=False
+full_label_conjugate_check=PASS
+conjugate_changed_corner_stickers=20
+conjugate_collateral=24,25,26,27,28,29,30,31,32,33,34

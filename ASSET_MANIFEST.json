@@ -1,0 +1,1302 @@
+{
+  "format": 1,
+  "purpose": "Frozen solver catalogs, algorithm words, routing/orientation tables, calibration and example inputs",
+  "files": {
+    "analysis/compound_flips/orbit1/candidate_01.word.txt": {
+      "bytes": 847,
+      "sha256": "833ad6d7d6efd8c8401c23488cfead0ecbe6ca5e95a284d66f7a1a2109170a96"
+    },
+    "analysis/compound_flips/orbit1/candidates.tsv": {
+      "bytes": 2506,
+      "sha256": "819b5e74c6dc0a4c85831a7a6d3b9996314693572ebf7befa19ea1992a30b28e"
+    },
+    "analysis/compound_flips/orbit14/candidate_01.word.txt": {
+      "bytes": 109,
+      "sha256": "3a5bd9f829d870f9e4725dff446ca57096a1a35b81aa6f0a0841c9aefb169cdc"
+    },
+    "analysis/compound_flips/orbit14/candidates.tsv": {
+      "bytes": 443,
+      "sha256": "15c376bf958d318e1ade083d92b9ae211791ab480667749c1da551ffc77e195a"
+    },
+    "analysis/compound_flips/orbit22/candidate_01.word.txt": {
+      "bytes": 845,
+      "sha256": "35ee6b61c02bb9e6e5d57fcd172895030136954fb5c87a2ad3f4f21e93398a1a"
+    },
+    "analysis/compound_flips/orbit22/candidates.tsv": {
+      "bytes": 661,
+      "sha256": "3b054c7d4d83b2a17bd5c04cc40fcbb2847ad07f0b8872aef599a15fe18935a2"
+    },
+    "analysis/compound_flips/orbit27/candidate_01.word.txt": {
+      "bytes": 1697,
+      "sha256": "b46f3fb6681803e1bdf8f29b440d8f59e38832d4950118ef0ce0223341999e58"
+    },
+    "analysis/compound_flips/orbit27/candidates.tsv": {
+      "bytes": 348,
+      "sha256": "7c2c23856b9e21626c78602bdc4be62ad399487771a7ce209b619d7983ba037a"
+    },
+    "analysis/compound_flips/orbit3/candidate_01.word.txt": {
+      "bytes": 453,
+      "sha256": "95a531de9a4664935c7875c0fc560d288b39a9e581b0d735e9751ee57488a7be"
+    },
+    "analysis/compound_flips/orbit3/candidates.tsv": {
+      "bytes": 2357,
+      "sha256": "1048e740f9fc6d14ac5bc46df09b03db84e247d3c87d159bf5e38c95e370018a"
+    },
+    "analysis/compound_flips/orbit33/candidate_01.word.txt": {
+      "bytes": 3391,
+      "sha256": "72fea2864c4aa4b1a4eb718953cfec234b15153234d8919673f81e18efbe672a"
+    },
+    "analysis/compound_flips/orbit33/candidates.tsv": {
+      "bytes": 502,
+      "sha256": "4306e90e75916148d34fbf8f66cf825e9931c4b8f2056b0078332e08ba1c6e8a"
+    },
+    "analysis/compound_flips/orbit9/candidate_01.word.txt": {
+      "bytes": 419,
+      "sha256": "dfb4aba4d75909358dc522d20c32de75424a646e9b139778043214dde87d0e49"
+    },
+    "analysis/compound_flips/orbit9/candidates.tsv": {
+      "bytes": 1985,
+      "sha256": "4c337c4611be070b463de01e1f465335c72ab3b2e0090b067b2b26b757f35987"
+    },
+    "analysis/corner35_assessment/second_rotation.word.txt": {
+      "bytes": 423,
+      "sha256": "c8cb89244f201dd6fbae2d092aab98432d08113681b2f96f75354d35e78c9257"
+    },
+    "analysis/corner35_assessment/summary.txt": {
+      "bytes": 292,
+      "sha256": "2167811702b1c2d2a7487fc9a543a8ced2a6f8d894ceb50f407067907b86f3dc"
+    },
+    "analysis/corner35_orientations/label_transport_checks.tsv": {
+      "bytes": 1355,
+      "sha256": "884a80281282205bf9e9a8047158d0cbaa5c1b78be3a4dabee5c2911146d9115"
+    },
+    "analysis/corner35_orientations/metadata.txt": {
+      "bytes": 221,
+      "sha256": "32a79afa8b8b38352fb0741cd33027a6992a731b74b7e33060d21d1935237b41"
+    },
+    "analysis/corner35_orientations/orbit_slots.int32.bin": {
+      "bytes": 480,
+      "sha256": "f72154268e34c21fce0c9ae19a1883cab6328511b0794fed0847b134ac9f9d97"
+    },
+    "analysis/corner35_orientations/orientation_library.tsv": {
+      "bytes": 79010,
+      "sha256": "3686b9863ba444e89cf1c7bbcd02f9f7ec2bf9b757d1e9d0b2799f53d094363f"
+    },
+    "analysis/corner35_orientations/orientation_routes.tsv": {
+      "bytes": 2211,
+      "sha256": "f6e39e361213a71cc85cea7e5e9b1be645e9e2f38ed1b629d197ff6bcf00b414"
+    },
+    "analysis/cyclic_orientations/orbit13/candidate_01.word.txt": {
+      "bytes": 813,
+      "sha256": "8e84711156562607a2d6a6837b8f060985832240d6f4d2b7ce947f069d0c51f2"
+    },
+    "analysis/cyclic_orientations/orbit13/candidates.tsv": {
+      "bytes": 875,
+      "sha256": "9d2228d9c3585f018bb3c3f253ecf227333f716841858d770ba140a45a25eb0c"
+    },
+    "analysis/cyclic_orientations/orbit26/candidate_01.word.txt": {
+      "bytes": 3389,
+      "sha256": "b61add18e8ebf3d6b77cca496d592ae651f4c97dc771b11680dfbd0b86e5ad95"
+    },
+    "analysis/cyclic_orientations/orbit26/candidates.tsv": {
+      "bytes": 523,
+      "sha256": "5d7f095f62d8b046982f50184d01b7b042db13fb23f025b476a9f4512021ace5"
+    },
+    "analysis/dihedral4_kernel/label_transport_checks.tsv": {
+      "bytes": 8555,
+      "sha256": "c97f91ddcbffdf95103dfd4e091daf7f1f2c9506ae59f4725db37748ec2eba73"
+    },
+    "analysis/dihedral4_kernel/metadata.txt": {
+      "bytes": 294,
+      "sha256": "e76d5267052cb6d1ef2dfc107c5227e2c78f47d8b749cd82d4e69f2a71977e64"
+    },
+    "analysis/dihedral4_kernel/orientation_library.tsv": {
+      "bytes": 996,
+      "sha256": "9271ca78148aeda26a225d3810948aeb594f551e6b46ecc1abced0a50569478b"
+    },
+    "analysis/dihedral4_kernel/paired_reflection.word.txt": {
+      "bytes": 681,
+      "sha256": "f65caf3a2fdc52ab5f87bc7ceefad263c83477e3cc667ecf5d1c5d977f0697e9"
+    },
+    "analysis/isolated_routing_schreier/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "0b0e47d876fd4d2268f4e0559adc211851dfc62e5ff1d8b78d3dd0554663c01d"
+    },
+    "analysis/isolated_routing_schreier/primitive_word.txt": {
+      "bytes": 829,
+      "sha256": "58c6acb1e42640d72ad15f5639927939fcaf04e00889bc2b072d98372094beb7"
+    },
+    "analysis/isolated_routing_schreier/routing_metadata.txt": {
+      "bytes": 187,
+      "sha256": "f86d54ba25816a78a5c2f24b4a08d4eeaef726441e86aa33a43ac6c04e3ec525"
+    },
+    "analysis/isolated_routing_schreier/routing_stage_0.tsv": {
+      "bytes": 158689,
+      "sha256": "5f51eaae9ff6f340b95a2c33211573805e4afd5b46a8fe8a554852afb9534abf"
+    },
+    "analysis/isolated_routing_schreier/routing_stage_1.tsv": {
+      "bytes": 160066,
+      "sha256": "82b0591819815945f44df1176d4e4c713ec39fd86fbb72fe82c1731acf275a42"
+    },
+    "analysis/isolated_routing_schreier/routing_stage_2.tsv": {
+      "bytes": 159826,
+      "sha256": "2ba85a2e44232d824afa5dd36718e63cacfa9759d13cc389be3d252f527f98fd"
+    },
+    "analysis/isolated_routing_schreier/schreier_connectors.txt": {
+      "bytes": 84,
+      "sha256": "77431804599da1a3b51f917211f477e44ba14ade376f75e9b098a825f131d49e"
+    },
+    "analysis/model_definition.json": {
+      "bytes": 314,
+      "sha256": "75bfb8deaf370ab4c6de99bcb192cf7579ee66b425a1d4e59921b97b005f4e4f"
+    },
+    "analysis/orbit_routing/orbit1/orbit_slots.int32.bin": {
+      "bytes": 4800,
+      "sha256": "38b6960e9f26834049c5ebbe6a827f5ac2cdcb3330d5f5f56d5c779613901f65"
+    },
+    "analysis/orbit_routing/orbit1/primitive_word.txt": {
+      "bytes": 359,
+      "sha256": "c5e05c75988b0b0509625e966f86a77c60c76b0c9ed5025897ef534537d4a3a5"
+    },
+    "analysis/orbit_routing/orbit1/routing_metadata.txt": {
+      "bytes": 476,
+      "sha256": "b64b67f949188ffaebc7ea8bdb343ed8635e607d48f073d9f4f16574a7845bce"
+    },
+    "analysis/orbit_routing/orbit1/routing_stage_0.tsv": {
+      "bytes": 25242,
+      "sha256": "a1e9560be208e78a05a6179313b9934d980f999cbd05edd83f51252731c97f6e"
+    },
+    "analysis/orbit_routing/orbit1/routing_stage_1.tsv": {
+      "bytes": 25313,
+      "sha256": "55d05ae50fdea7538310df53e1f64164219d4fd96d393a753cea4ae770b1a77d"
+    },
+    "analysis/orbit_routing/orbit1/routing_stage_2.tsv": {
+      "bytes": 25382,
+      "sha256": "43b29cc3023db33c87277a6773a8efee0ca0c8a30f2c5069d8e46f4201d5a448"
+    },
+    "analysis/orbit_routing/orbit1/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit10/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "8e807308c0caeceb7d092813fcb49d82282952fea5db17d66f522bd460b11df9"
+    },
+    "analysis/orbit_routing/orbit10/primitive_word.txt": {
+      "bytes": 83,
+      "sha256": "7b0132c0ad3e256ecbe8d44d9f58a310e63de7c6cade4700b1684b5c9863c096"
+    },
+    "analysis/orbit_routing/orbit10/routing_metadata.txt": {
+      "bytes": 416,
+      "sha256": "e0cef7463d279c15625451d7e2c6aa8f5f5dfb7f01a0a8be1b687d0e4ec5db9f"
+    },
+    "analysis/orbit_routing/orbit10/routing_stage_0.tsv": {
+      "bytes": 159056,
+      "sha256": "d76ab26744bce9ad18672c7c078e77aca8a93c975bb8417c1d2cc41a6dd39acd"
+    },
+    "analysis/orbit_routing/orbit10/routing_stage_1.tsv": {
+      "bytes": 159786,
+      "sha256": "a1848ae994681a30b87074979ceac44c721f3998785d700c56ca977d1b89e239"
+    },
+    "analysis/orbit_routing/orbit10/routing_stage_2.tsv": {
+      "bytes": 160528,
+      "sha256": "043ec8eea36218218e41f7292570a498209f4d5766fcabfd16c9378205887289"
+    },
+    "analysis/orbit_routing/orbit10/schreier_connectors.txt": {
+      "bytes": 96,
+      "sha256": "c1fe608ebe0cc091f741ad5e767a22280c66ba87520e22f0c3dd7467353bd45c"
+    },
+    "analysis/orbit_routing/orbit11/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "d5b0f8c5f826e9963a88e15531ca0b8f7c41aa375cf637174d20aeb8914399bf"
+    },
+    "analysis/orbit_routing/orbit11/primitive_word.txt": {
+      "bytes": 83,
+      "sha256": "899efa207bbd194c3169a743056f11a9f9d4b5908b61d7e52615fe1f32a84d29"
+    },
+    "analysis/orbit_routing/orbit11/routing_metadata.txt": {
+      "bytes": 402,
+      "sha256": "ee3b1cf50b6d0642cb29a3357c74d7949169f871791999e3ffb95889ca5e8759"
+    },
+    "analysis/orbit_routing/orbit11/routing_stage_0.tsv": {
+      "bytes": 159039,
+      "sha256": "396e3cf59cab9726bbad7994431040b556095036a2b8cec299846e74e3e039f5"
+    },
+    "analysis/orbit_routing/orbit11/routing_stage_1.tsv": {
+      "bytes": 159162,
+      "sha256": "aa03bbab3a3d872a2786ee2cfdd4c611d5a5104bd2cfbd4ed58174e915183333"
+    },
+    "analysis/orbit_routing/orbit11/routing_stage_2.tsv": {
+      "bytes": 160570,
+      "sha256": "eb5c2f8c7c5a3c453e9f04976123af8b677d65106bb275afdf9c2879e75884d3"
+    },
+    "analysis/orbit_routing/orbit11/schreier_connectors.txt": {
+      "bytes": 118,
+      "sha256": "a23f868077b0567855ebe45e4d6e5df1f705f1d89e588e2a9e398d0d6db33d28"
+    },
+    "analysis/orbit_routing/orbit12/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "54826705b11dcb3c0dc890c1e30af8979372fae4e639ee3465b67ada0cabae29"
+    },
+    "analysis/orbit_routing/orbit12/primitive_word.txt": {
+      "bytes": 185,
+      "sha256": "4001563a9b467e0712adac96b28941425f8e16ab2acdcb5defcabc8d1d59e754"
+    },
+    "analysis/orbit_routing/orbit12/routing_metadata.txt": {
+      "bytes": 374,
+      "sha256": "1886677ea2d1c684b36de4cbea81460fc3a5bdbbc0ab879e681353cb2889e457"
+    },
+    "analysis/orbit_routing/orbit12/routing_stage_0.tsv": {
+      "bytes": 158850,
+      "sha256": "d25f7cd9f601b3729c065c2f038724286d0edbfec7c25c18f792643393fc153a"
+    },
+    "analysis/orbit_routing/orbit12/routing_stage_1.tsv": {
+      "bytes": 159986,
+      "sha256": "d05dbee6eead0793d4e40015ffc4b8dacb97d388b253ac6b644df161aa69a1c4"
+    },
+    "analysis/orbit_routing/orbit12/routing_stage_2.tsv": {
+      "bytes": 159166,
+      "sha256": "e1e6719192d0e2ece99288a10f8048bf1832ad5d7691f3d90b25e1137b49ccb3"
+    },
+    "analysis/orbit_routing/orbit12/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit13/orbit_slots.int32.bin": {
+      "bytes": 5760,
+      "sha256": "a6ff90e7eb0f50e054096774a59ba43f40d5863221f2a23e415aadfb6ef2d573"
+    },
+    "analysis/orbit_routing/orbit13/primitive_word.txt": {
+      "bytes": 389,
+      "sha256": "785e50f9590ac73b779b7e8c98149e0875cb828c609316b49b74336a60739ee8"
+    },
+    "analysis/orbit_routing/orbit13/routing_metadata.txt": {
+      "bytes": 354,
+      "sha256": "6ff37a556dadb43028e7844a34f7165f099d262f96a3c07b52b241a3e9921919"
+    },
+    "analysis/orbit_routing/orbit13/routing_stage_0.tsv": {
+      "bytes": 29675,
+      "sha256": "9075664a0d8b4ef3a9e745cd3c4412acfb20fc702b991d787c0ec2ed8c8a1218"
+    },
+    "analysis/orbit_routing/orbit13/routing_stage_1.tsv": {
+      "bytes": 29984,
+      "sha256": "08b3db138a1509e4edb46850030039377a1212f5ee7a88423977d9fc4f78088b"
+    },
+    "analysis/orbit_routing/orbit13/routing_stage_2.tsv": {
+      "bytes": 29700,
+      "sha256": "2bdf130d3bf77641bb33b644d34fb2946b533ad8c8d08e63d216450d04b2c64b"
+    },
+    "analysis/orbit_routing/orbit13/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit14/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "5c3bf2b91852aeb235384ce848dfa7cf581b66debed3a3946e39202580b4ac1d"
+    },
+    "analysis/orbit_routing/orbit14/primitive_word.txt": {
+      "bytes": 33,
+      "sha256": "16ae33086b23c665e210f9ecd99c63f5bb476ba40c815898a619a47ba0bfe18c"
+    },
+    "analysis/orbit_routing/orbit14/routing_metadata.txt": {
+      "bytes": 407,
+      "sha256": "e971396fa0c17f40edf9309920db000f74b5ff9985961d29521c2af7f9d49456"
+    },
+    "analysis/orbit_routing/orbit14/routing_stage_0.tsv": {
+      "bytes": 77980,
+      "sha256": "8c3d4d1eb6d0999fed103ac3b92dc9959eef74aea2dbfcfa42ae99ff170c05a2"
+    },
+    "analysis/orbit_routing/orbit14/routing_stage_1.tsv": {
+      "bytes": 78290,
+      "sha256": "3b214624520e7d6adf2ad5ad19a68a996719fc0f715550659317be76183cfe95"
+    },
+    "analysis/orbit_routing/orbit14/routing_stage_2.tsv": {
+      "bytes": 78872,
+      "sha256": "fee996e8cd61335696f03e4f525fdd6c2c8b33e8780f619eeb80146c1a5a1b2c"
+    },
+    "analysis/orbit_routing/orbit14/schreier_connectors.txt": {
+      "bytes": 39,
+      "sha256": "f3964f1a1a7165210b349a1544ef09be9c2102900535e355ff13befc306bcd35"
+    },
+    "analysis/orbit_routing/orbit15/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "7686c6fc68eecb2ca9eebc5036130bb677562e2c4304d6a862b15e88fd7359ff"
+    },
+    "analysis/orbit_routing/orbit15/primitive_word.txt": {
+      "bytes": 929,
+      "sha256": "d72c6c1c1a1ba020ffe2b949604bd3b57ae6376bfeb59ac6f103ffadf34a8efd"
+    },
+    "analysis/orbit_routing/orbit15/routing_metadata.txt": {
+      "bytes": 381,
+      "sha256": "14698ef04c90e655794fdfb866796fc49522c30d531c11d78eda4138a5b34ef6"
+    },
+    "analysis/orbit_routing/orbit15/routing_stage_0.tsv": {
+      "bytes": 161757,
+      "sha256": "f4ec09521f1e79f697b93d45b60e7d8981f16e00560afabe0b52d69736c0c49c"
+    },
+    "analysis/orbit_routing/orbit15/routing_stage_1.tsv": {
+      "bytes": 161758,
+      "sha256": "4212899155cfe5419d2ea68f0ddab907ef2867f439660a7eb3421e8efa4d0304"
+    },
+    "analysis/orbit_routing/orbit15/routing_stage_2.tsv": {
+      "bytes": 162609,
+      "sha256": "15dbefd54866037401224ef46a8d9c22778a7f24c3717e71c1ee5b2f9cf677a9"
+    },
+    "analysis/orbit_routing/orbit15/schreier_connectors.txt": {
+      "bytes": 90,
+      "sha256": "09a2d653dec3b4c660e287afdca77e029004e24ab6cf43a94864769f6932413d"
+    },
+    "analysis/orbit_routing/orbit16/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "4984da88ee00c148ecca59f239fe5a41a4ab7dd888fe2699190eb2667ff39191"
+    },
+    "analysis/orbit_routing/orbit16/primitive_word.txt": {
+      "bytes": 83,
+      "sha256": "3181b8cd4a64486e83a98aaa1461299c59fee7c58ddf8bb771ef2665ddf52e78"
+    },
+    "analysis/orbit_routing/orbit16/routing_metadata.txt": {
+      "bytes": 361,
+      "sha256": "f02e1a6a57f0771b53a08acdbe21bbd734d052fe8c2f6a8def71a29a7c2b3b39"
+    },
+    "analysis/orbit_routing/orbit16/routing_stage_0.tsv": {
+      "bytes": 158641,
+      "sha256": "ef145927d9bc5e27b7495150c1d9ccd59276518df1b64c5339c102e589f54d87"
+    },
+    "analysis/orbit_routing/orbit16/routing_stage_1.tsv": {
+      "bytes": 158980,
+      "sha256": "11a86ccbdaeed8d259465d736aba093657e6ee65af2169c4888522d4bc11aca8"
+    },
+    "analysis/orbit_routing/orbit16/routing_stage_2.tsv": {
+      "bytes": 159379,
+      "sha256": "bdafc6d81d060fb2e0949bddaa41a0453f95d7743fef589c6df04bc4ed095b99"
+    },
+    "analysis/orbit_routing/orbit16/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit17/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "d2a387ad5d4c564dc4ab384110548f906096e7d3c951d720891a5c9599e27d6a"
+    },
+    "analysis/orbit_routing/orbit17/primitive_word.txt": {
+      "bytes": 193,
+      "sha256": "dc89e84a28c9c7d6dd747bc54708c91c40d69d468c3e9631dc36adf73e5b3839"
+    },
+    "analysis/orbit_routing/orbit17/routing_metadata.txt": {
+      "bytes": 343,
+      "sha256": "dcae256abbe3b283af1db25b8c3db6c282b88383fe9354e29cc511c2029cbba5"
+    },
+    "analysis/orbit_routing/orbit17/routing_stage_0.tsv": {
+      "bytes": 158736,
+      "sha256": "e1c20667baff801f50b0724d225aa4745ae0633c05d9eb4e13d9c13fbdd7a9ed"
+    },
+    "analysis/orbit_routing/orbit17/routing_stage_1.tsv": {
+      "bytes": 159279,
+      "sha256": "80ac742bbfeb4a6fea66257e97fdc2e1832d8ee18aff3eb8202cb4232c1d2806"
+    },
+    "analysis/orbit_routing/orbit17/routing_stage_2.tsv": {
+      "bytes": 162384,
+      "sha256": "9ad0e66edfb2733f257dfd7c5f15f9c61e790437c1d681a47ae1f7edafbe43c8"
+    },
+    "analysis/orbit_routing/orbit17/schreier_connectors.txt": {
+      "bytes": 190,
+      "sha256": "50538bfe72be6bc81747f1347bee2afb905e3d208f3d1fcdb234cbe440a4d1bc"
+    },
+    "analysis/orbit_routing/orbit18/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "7c64fdd0e2b16857da6039f8f6df432cbf19fcfa43fd88884cf71db96ef76c21"
+    },
+    "analysis/orbit_routing/orbit18/primitive_word.txt": {
+      "bytes": 817,
+      "sha256": "7df87c18e5c83b0dad8651add3ffbc58a497ea345766e3daa41f45f7eb5971d5"
+    },
+    "analysis/orbit_routing/orbit18/routing_metadata.txt": {
+      "bytes": 372,
+      "sha256": "ba695e69e70398180374e33e6c8c4ecc49b26b0188c377b523644a262f3a9a5b"
+    },
+    "analysis/orbit_routing/orbit18/routing_stage_0.tsv": {
+      "bytes": 158648,
+      "sha256": "2f92380b13bd6f34a0003e996e05cdf4889ecf38618de9c04af22de52f7e8fcf"
+    },
+    "analysis/orbit_routing/orbit18/routing_stage_1.tsv": {
+      "bytes": 160212,
+      "sha256": "b41987ca028f0e93807969fe05937cda66a03404fb91193a998382704c090708"
+    },
+    "analysis/orbit_routing/orbit18/routing_stage_2.tsv": {
+      "bytes": 159886,
+      "sha256": "5ba7f86621c6221491ecd0a9aaeed0057ffbaa46a2115f91d784852514b4a85f"
+    },
+    "analysis/orbit_routing/orbit18/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit19/orbit_slots.int32.bin": {
+      "bytes": 9600,
+      "sha256": "ec661a81040956027bdd96bb858de0208b679833a166668a39936936f09e8527"
+    },
+    "analysis/orbit_routing/orbit19/primitive_word.txt": {
+      "bytes": 85,
+      "sha256": "fd178847e532adaf3bb2f2199aaf1d6e87bd563b68cd22845d1a7fdf149e898d"
+    },
+    "analysis/orbit_routing/orbit19/routing_metadata.txt": {
+      "bytes": 376,
+      "sha256": "75b91712b515e845b0e82a5161e7c9e729872f665a9314e6fbfa2068cddbb618"
+    },
+    "analysis/orbit_routing/orbit19/routing_stage_0.tsv": {
+      "bytes": 51015,
+      "sha256": "774df9795b4715273b4e5dd263810347fe9576fa48c693f6425abc1fce887a2a"
+    },
+    "analysis/orbit_routing/orbit19/routing_stage_1.tsv": {
+      "bytes": 51273,
+      "sha256": "a80e3861bd94134602a36d7fc73a70999154958fd6fb87976e04694e62b78b61"
+    },
+    "analysis/orbit_routing/orbit19/routing_stage_2.tsv": {
+      "bytes": 51535,
+      "sha256": "d69bf86dc20dfbb553a9d76b153c33ea805b3e12f40a7f07246b533193a77abc"
+    },
+    "analysis/orbit_routing/orbit19/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit2/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "7660f5e052f274ef4dbfc0895c6bc15b4cd45c5a2dc5e31e54e784e9572ee930"
+    },
+    "analysis/orbit_routing/orbit2/primitive_word.txt": {
+      "bytes": 89,
+      "sha256": "7c2d3ab8743a2ae137a34bc429d4e4527c7c50d3dffb1d8f2dedac20eba4234e"
+    },
+    "analysis/orbit_routing/orbit2/routing_metadata.txt": {
+      "bytes": 473,
+      "sha256": "29ad389911117784812115ab9da2ed9a8aeac19d2e7f144851d400077c3dcb61"
+    },
+    "analysis/orbit_routing/orbit2/routing_stage_0.tsv": {
+      "bytes": 78720,
+      "sha256": "6cdaac16ebec4fd392a6a6957d346ea536058e543c4f2730280ccbb1524569da"
+    },
+    "analysis/orbit_routing/orbit2/routing_stage_1.tsv": {
+      "bytes": 78944,
+      "sha256": "379632f21c80aeabb9c67fdf6805692bc13b3902f1c7c1586899be72f2dd28dd"
+    },
+    "analysis/orbit_routing/orbit2/routing_stage_2.tsv": {
+      "bytes": 79515,
+      "sha256": "e335a986227bfefc433d09c06b342add488393052bb9abb02a80253011566def"
+    },
+    "analysis/orbit_routing/orbit2/schreier_connectors.txt": {
+      "bytes": 57,
+      "sha256": "3236e3b592750cee50ce8394688c1b64f3a8ef58fb21ae5759bfb61c8d090f6d"
+    },
+    "analysis/orbit_routing/orbit20/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "8a2075c0e59c4847805173947aafc21ef983360718c8e719bfb945734d41471a"
+    },
+    "analysis/orbit_routing/orbit20/primitive_word.txt": {
+      "bytes": 211,
+      "sha256": "0b01ca254c992321f1456c445adc3abd436db18ca03ec9abf32d28db84e473af"
+    },
+    "analysis/orbit_routing/orbit20/routing_metadata.txt": {
+      "bytes": 354,
+      "sha256": "432f50609f1f8f279310cc1fdae7be31fd07d3402219d06d55f7f72eea3e0e71"
+    },
+    "analysis/orbit_routing/orbit20/routing_stage_0.tsv": {
+      "bytes": 161286,
+      "sha256": "aacdb84027d0d05169634b36953802a93ae496b1db1967b934129e89a266748b"
+    },
+    "analysis/orbit_routing/orbit20/routing_stage_1.tsv": {
+      "bytes": 161670,
+      "sha256": "1b16729b043c77d6dc1eedc23411e3d03e495c3b6bbc55564d26ace5e8df5857"
+    },
+    "analysis/orbit_routing/orbit20/routing_stage_2.tsv": {
+      "bytes": 161642,
+      "sha256": "c1cf869ffe9354f3bb257fbf91cd42dd03d3fe6a74ea6c03ff34dceaba08c656"
+    },
+    "analysis/orbit_routing/orbit20/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit21/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "1fdfeec4ec8ccdc84e1c09a78d06a41ac5d20e1705ac5eeda889a7d9baed2754"
+    },
+    "analysis/orbit_routing/orbit21/primitive_word.txt": {
+      "bytes": 185,
+      "sha256": "0c72e6964df68e179d3d710f2765c5e1598889237fff14c02242a40c8037ebe9"
+    },
+    "analysis/orbit_routing/orbit21/routing_metadata.txt": {
+      "bytes": 349,
+      "sha256": "974cf6ba6e5604f0656a2f1a4ec4f5eea85c4210d81fa31e171d5d63d58bd224"
+    },
+    "analysis/orbit_routing/orbit21/routing_stage_0.tsv": {
+      "bytes": 158690,
+      "sha256": "72937c78fee0d18989a637104835043eed0d8a9420f1a98bb7435d320ca33709"
+    },
+    "analysis/orbit_routing/orbit21/routing_stage_1.tsv": {
+      "bytes": 159446,
+      "sha256": "f278cac75b428a46f162db0eef67eb91367e92a3a83a0f4de7bab31abf70804f"
+    },
+    "analysis/orbit_routing/orbit21/routing_stage_2.tsv": {
+      "bytes": 160237,
+      "sha256": "07165368791d2f77087877cee2dc6b69738b018e8ff01c6b46717c4562c6f7f9"
+    },
+    "analysis/orbit_routing/orbit21/schreier_connectors.txt": {
+      "bytes": 87,
+      "sha256": "372860595278466e7a6fd687e42e70bc165dcf893c33fd8568104e6bc6b289ae"
+    },
+    "analysis/orbit_routing/orbit22/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "036307bdec892e62c3732fe14e7f0e9e5bfa1fa32e486d8a355fcf97fc5b3a15"
+    },
+    "analysis/orbit_routing/orbit22/primitive_word.txt": {
+      "bytes": 405,
+      "sha256": "4f489fdd3d449caecfda5cb76bdb598ce57765b420adc25a806c91026438dbc4"
+    },
+    "analysis/orbit_routing/orbit22/routing_metadata.txt": {
+      "bytes": 328,
+      "sha256": "73c2ad730ed7b7050edc50af4646c3281d9ee86b0204c33010f3cc1d30d384f8"
+    },
+    "analysis/orbit_routing/orbit22/routing_stage_0.tsv": {
+      "bytes": 77599,
+      "sha256": "15a251fa5ff468a35d3013691f432534cf5a877c30ebfd3d5e6d7390a8e06260"
+    },
+    "analysis/orbit_routing/orbit22/routing_stage_1.tsv": {
+      "bytes": 78148,
+      "sha256": "ddb94060b7bae8eee6900b9cb23916c7e5d6e496140d70caf14da41ff1ddc9a0"
+    },
+    "analysis/orbit_routing/orbit22/routing_stage_2.tsv": {
+      "bytes": 78143,
+      "sha256": "e052a6ce4e70feaf98222f9114fdcd4fbdba9431d63a376e0e647698449543e7"
+    },
+    "analysis/orbit_routing/orbit22/schreier_connectors.txt": {
+      "bytes": 95,
+      "sha256": "237dc3228c3e1267f281ace952b9744d6636ed705c2732ca09325a69ef11ff65"
+    },
+    "analysis/orbit_routing/orbit23/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "da5355711588275884cd0cf3090e15660081434b4c6a4b0989e296bfa7f54392"
+    },
+    "analysis/orbit_routing/orbit23/primitive_word.txt": {
+      "bytes": 405,
+      "sha256": "831a64279dde12d6b48514355d8b479d53fa19164d1e923b5fb33e3665782a44"
+    },
+    "analysis/orbit_routing/orbit23/routing_metadata.txt": {
+      "bytes": 329,
+      "sha256": "b4f67aad1bc25a2d3fc64a4219a2666bdfa752855b7f9a571a01be096b616619"
+    },
+    "analysis/orbit_routing/orbit23/routing_stage_0.tsv": {
+      "bytes": 158757,
+      "sha256": "e4c2087a6130937ddc4b63b86fa6456cc5e6c18fe23e427355e0f23d9dffe072"
+    },
+    "analysis/orbit_routing/orbit23/routing_stage_1.tsv": {
+      "bytes": 160315,
+      "sha256": "8cd1df9a914e9187d799abbab55483db51d037207beed0ff9ae975ce130d21c8"
+    },
+    "analysis/orbit_routing/orbit23/routing_stage_2.tsv": {
+      "bytes": 159286,
+      "sha256": "cebeea31fd88d2a57e28b3dd7a6e2b138f0e3577fa817a23d7beb63aeab93c3c"
+    },
+    "analysis/orbit_routing/orbit23/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit24/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "913b1ec7f690cea9654d57dff80be17c9e88d1118c25d864ab2a4e45d4d7bd6c"
+    },
+    "analysis/orbit_routing/orbit24/primitive_word.txt": {
+      "bytes": 405,
+      "sha256": "f2cf16ce3463a36a0e0904175cba99a2559607192f16fc356e5c1ca36b1733ef"
+    },
+    "analysis/orbit_routing/orbit24/routing_metadata.txt": {
+      "bytes": 321,
+      "sha256": "b3940273b372efdca2cb15be13a1495e0251ef6f0a1d374356aca55e2ec00b54"
+    },
+    "analysis/orbit_routing/orbit24/routing_stage_0.tsv": {
+      "bytes": 158725,
+      "sha256": "884ab74bfa416719b37f5e797ceb019dad407a047549fe8bf3328631f91b6238"
+    },
+    "analysis/orbit_routing/orbit24/routing_stage_1.tsv": {
+      "bytes": 160216,
+      "sha256": "a9e31610d29533d1c10daa3dffb4923dc178207f1804936cc0b39d511f62e0b9"
+    },
+    "analysis/orbit_routing/orbit24/routing_stage_2.tsv": {
+      "bytes": 159115,
+      "sha256": "52126ffe7e026b090e3bfe7c97127208a7e28bc41daaa64f7eaf08ccb75ab8fe"
+    },
+    "analysis/orbit_routing/orbit24/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit25/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "9bdb9a2627df1d619659fef6909713a0663a1b86e8fadda15522bccf2ba49b54"
+    },
+    "analysis/orbit_routing/orbit25/primitive_word.txt": {
+      "bytes": 833,
+      "sha256": "1324ab82b41eddae79361efcce33c4bd334856a74b82ba2da34ec4164fb81f47"
+    },
+    "analysis/orbit_routing/orbit25/routing_metadata.txt": {
+      "bytes": 309,
+      "sha256": "98ec0f263c32d27034f70b24299a4d41631d024791e6753f52d2ada5afc64ad2"
+    },
+    "analysis/orbit_routing/orbit25/routing_stage_0.tsv": {
+      "bytes": 157927,
+      "sha256": "d636a29027fd74cd437cec51e33cfde44126e2f88f88d8b8635a8624504756f0"
+    },
+    "analysis/orbit_routing/orbit25/routing_stage_1.tsv": {
+      "bytes": 159727,
+      "sha256": "877f54c365872acdb404461cd3377daf8da6f19ec6ef599c8772023587daac96"
+    },
+    "analysis/orbit_routing/orbit25/routing_stage_2.tsv": {
+      "bytes": 160177,
+      "sha256": "885c5d514358aa56101f4185a2c90c51ea3cf691639284f1f14131aafdb097c0"
+    },
+    "analysis/orbit_routing/orbit25/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit26/orbit_slots.int32.bin": {
+      "bytes": 5760,
+      "sha256": "b18e7b7e0e34b1cb17899e904960a2cfe66c8b2c3e888ad61e067213aa52601f"
+    },
+    "analysis/orbit_routing/orbit26/primitive_word.txt": {
+      "bytes": 1677,
+      "sha256": "0242ab12ad6692df6f82be973b9cec75b5d924f048b7d9d957a271eae733a9b6"
+    },
+    "analysis/orbit_routing/orbit26/routing_metadata.txt": {
+      "bytes": 282,
+      "sha256": "1e96cc4cb0590139d13edb5bd79bb3b95b685c82c8f80bf5a5d9bf083eb5e9c9"
+    },
+    "analysis/orbit_routing/orbit26/routing_stage_0.tsv": {
+      "bytes": 29553,
+      "sha256": "7f9ca1aca180ef58992958ea32cc08361e6cdbdd86d83549c1b09ae53c9a4876"
+    },
+    "analysis/orbit_routing/orbit26/routing_stage_1.tsv": {
+      "bytes": 30061,
+      "sha256": "122a339f8381f5b67f74ec7ae4a2497a5de65f3b3f1ec53b654f017218083e7c"
+    },
+    "analysis/orbit_routing/orbit26/routing_stage_2.tsv": {
+      "bytes": 29903,
+      "sha256": "73b6551babf4ee14057155867f030ad4f30654820769f49e9a320f722497fe2e"
+    },
+    "analysis/orbit_routing/orbit26/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit27/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "6a355e49c802b360e2d15d9b2783515de1733e771437b8c30549b52346610c78"
+    },
+    "analysis/orbit_routing/orbit27/primitive_word.txt": {
+      "bytes": 829,
+      "sha256": "d1b759e87020b47a5854ab0c1e52e0b2c0a5a7eceed61d45245579b360a946ff"
+    },
+    "analysis/orbit_routing/orbit27/routing_metadata.txt": {
+      "bytes": 299,
+      "sha256": "8cb3603a2bf51e80752f3e3aecf645c20a4319a07d9311538224350a0799af3f"
+    },
+    "analysis/orbit_routing/orbit27/routing_stage_0.tsv": {
+      "bytes": 77169,
+      "sha256": "fc17ef5194b099522268adeb6bea46064db997d5618a51851f74cba264e9f502"
+    },
+    "analysis/orbit_routing/orbit27/routing_stage_1.tsv": {
+      "bytes": 78037,
+      "sha256": "159612ee211faa7b5a188ebedd5d2ade4751c740a67db60643938fb44cc30427"
+    },
+    "analysis/orbit_routing/orbit27/routing_stage_2.tsv": {
+      "bytes": 78656,
+      "sha256": "04fb1fcac71f866a9eca8b38edba6ab2e8c3267994da42b91436c37b27e01158"
+    },
+    "analysis/orbit_routing/orbit27/schreier_connectors.txt": {
+      "bytes": 57,
+      "sha256": "76c078176ce11bf986d44cd51f486e7cfb1ff8e852bf8e45b121c1ff8d36d00c"
+    },
+    "analysis/orbit_routing/orbit28/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "78fc052ecfeb4c1da010ae00d29f54d0773ae1fe4daf0871b22b24e85a3be614"
+    },
+    "analysis/orbit_routing/orbit28/primitive_word.txt": {
+      "bytes": 961,
+      "sha256": "60fd8de041f62a6ba1d062a82cb7204645729cb40ace48262d2abcf08796b742"
+    },
+    "analysis/orbit_routing/orbit28/routing_metadata.txt": {
+      "bytes": 293,
+      "sha256": "ddfb8a522d95e8f888e6c2543a113ef1d443b2f1a9e9ee5562fd0a9aeff6bae9"
+    },
+    "analysis/orbit_routing/orbit28/routing_stage_0.tsv": {
+      "bytes": 160398,
+      "sha256": "a4618a9e5a459358cbffc805079f90f3a5bf5037f5663e7a0f42b039f637eee9"
+    },
+    "analysis/orbit_routing/orbit28/routing_stage_1.tsv": {
+      "bytes": 161473,
+      "sha256": "5509f3316fbee6ce2314648f60c29fd31d7d324c179f94cbe20de3284a69a12a"
+    },
+    "analysis/orbit_routing/orbit28/routing_stage_2.tsv": {
+      "bytes": 161114,
+      "sha256": "7bef2cf3583c805d9756729b91f2d51c7f29579ac5b88a3824847c4a765a07c0"
+    },
+    "analysis/orbit_routing/orbit28/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit3/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "901f52309547670c9d456c3a2e1c9f20e35b9d38b1a426a1363470e56485790e"
+    },
+    "analysis/orbit_routing/orbit3/primitive_word.txt": {
+      "bytes": 197,
+      "sha256": "a34904946c84d77c54321b7cc10139bc2b246bc96a551c5e07c8276850f226b5"
+    },
+    "analysis/orbit_routing/orbit3/routing_metadata.txt": {
+      "bytes": 470,
+      "sha256": "cd73e086f2971701292da3a1d7436b552e698da2d401c938b854687679fb82b1"
+    },
+    "analysis/orbit_routing/orbit3/routing_stage_0.tsv": {
+      "bytes": 78777,
+      "sha256": "6467b499e1e36e3b9bc3c61a640feb8b39b978a7675657b7dbb7958d6b69d8f8"
+    },
+    "analysis/orbit_routing/orbit3/routing_stage_1.tsv": {
+      "bytes": 78936,
+      "sha256": "a46083c712d8c538dccca28c35ccb2f260f1aa64470bb21ed62f3c7dbb214da1"
+    },
+    "analysis/orbit_routing/orbit3/routing_stage_2.tsv": {
+      "bytes": 78921,
+      "sha256": "3dcdc94ecd99d9699f7bdd7d349d26c70c2a819341f9e2af0dcd6fdb857fed0d"
+    },
+    "analysis/orbit_routing/orbit3/schreier_connectors.txt": {
+      "bytes": 31,
+      "sha256": "3fd6faaf65122c10970ee722ba7487c8b4b94dc0c23ec5c4df326abd53ff77d4"
+    },
+    "analysis/orbit_routing/orbit30/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "b530b27dc481bd39f80a83a2f8e4507819dffabdac8189069de855158ed03604"
+    },
+    "analysis/orbit_routing/orbit30/primitive_word.txt": {
+      "bytes": 829,
+      "sha256": "3072e01180e969775af13634a63665ee6185f962b0c50fdf4fcfa956da41ff0d"
+    },
+    "analysis/orbit_routing/orbit30/routing_metadata.txt": {
+      "bytes": 293,
+      "sha256": "8646757383b135fb3d71896ea18d511eb36fbbd21281baaaa7311ffa837284f1"
+    },
+    "analysis/orbit_routing/orbit30/routing_stage_0.tsv": {
+      "bytes": 158498,
+      "sha256": "b9b93a893a1cf2be9b09cbf76585b6b211bc6dccb2abf8aa967c1878e62d1563"
+    },
+    "analysis/orbit_routing/orbit30/routing_stage_1.tsv": {
+      "bytes": 159949,
+      "sha256": "1606cbdb7ac8c1f299699a7c6a0b7e066357e0a235ce8c199f2d15ecc21c74e2"
+    },
+    "analysis/orbit_routing/orbit30/routing_stage_2.tsv": {
+      "bytes": 162960,
+      "sha256": "a29ef3c788416679aafea223135e511b4b765ee9c2295a088a9942304255ce75"
+    },
+    "analysis/orbit_routing/orbit30/schreier_connectors.txt": {
+      "bytes": 181,
+      "sha256": "9e4b3883a1648234d53725f8176e9ca2b12bcaa47ba8ca54b8cd67e73a195b27"
+    },
+    "analysis/orbit_routing/orbit31/orbit_slots.int32.bin": {
+      "bytes": 9600,
+      "sha256": "e03a460ada20f9d5dd5623337d8019a54139d352234bd289eb4a24951109070d"
+    },
+    "analysis/orbit_routing/orbit31/primitive_word.txt": {
+      "bytes": 405,
+      "sha256": "aeb161ee8ef230f8c20bf1905db443ad94520aa52d1cf5b85775d8e999474062"
+    },
+    "analysis/orbit_routing/orbit31/routing_metadata.txt": {
+      "bytes": 293,
+      "sha256": "e337f8b69e3734fba9104efb7d128b57c425fec1c7ab1aae07b14c6fb31fd7fa"
+    },
+    "analysis/orbit_routing/orbit31/routing_stage_0.tsv": {
+      "bytes": 50877,
+      "sha256": "7f36ac39b0e3ad0b42a46241c7c19a0e49f6746253bfc962836c5c790368fd6b"
+    },
+    "analysis/orbit_routing/orbit31/routing_stage_1.tsv": {
+      "bytes": 51229,
+      "sha256": "d571887d5f42d3463aca9b27e64947e8b583c61b29ed0decc23ecc684cf4b36e"
+    },
+    "analysis/orbit_routing/orbit31/routing_stage_2.tsv": {
+      "bytes": 51423,
+      "sha256": "4fd86d32307209ff3b5be6127255b60564eadb085cf9d1a0fd298d3e23365815"
+    },
+    "analysis/orbit_routing/orbit31/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit32/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "cfa31a47cafa28867e4daa6795eb5ac0d004bf97b9875551b9b6e6a17c3b7e42"
+    },
+    "analysis/orbit_routing/orbit32/primitive_word.txt": {
+      "bytes": 827,
+      "sha256": "7f64a393e1ad78d6b21614d91f7b36b576e8afcc9ba5ebdaed4696a4e8d4071f"
+    },
+    "analysis/orbit_routing/orbit32/routing_metadata.txt": {
+      "bytes": 284,
+      "sha256": "5809311d9e6e58632775f519832da2adef669e218e99771728a3bd3d5a8c4f8b"
+    },
+    "analysis/orbit_routing/orbit32/routing_stage_0.tsv": {
+      "bytes": 158330,
+      "sha256": "8a1aa99dbb333da66ed569dfdd834781410b85210ab87b2778a75980aa4e697a"
+    },
+    "analysis/orbit_routing/orbit32/routing_stage_1.tsv": {
+      "bytes": 159530,
+      "sha256": "a0342c7460f498d469edf482691d7694560004e3fdbcce94efb76b08fe15fc61"
+    },
+    "analysis/orbit_routing/orbit32/routing_stage_2.tsv": {
+      "bytes": 160332,
+      "sha256": "d722c8792e020dbec5291df386008b42d21034a3cd620e94d87ebcee4049f8e4"
+    },
+    "analysis/orbit_routing/orbit32/schreier_connectors.txt": {
+      "bytes": 96,
+      "sha256": "5aa1477c66cdef3e88b3120b9ea31f6181b40784c9fbbe1cd49b19a2cf0b6468"
+    },
+    "analysis/orbit_routing/orbit33/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "2360b5e9aa2efc982d18478c05ad7f77ca745b213346e414212677ab5ff82ff6"
+    },
+    "analysis/orbit_routing/orbit33/primitive_word.txt": {
+      "bytes": 1677,
+      "sha256": "c98989b943e2a1c46692f04490286c1a2280cf0cdeb807480a39de7b2be51e18"
+    },
+    "analysis/orbit_routing/orbit33/routing_metadata.txt": {
+      "bytes": 272,
+      "sha256": "d8dfbab9ed5d59edc43c0db9ee0a0e82bdcde07d6f4a69e0772ef966de65c25f"
+    },
+    "analysis/orbit_routing/orbit33/routing_stage_0.tsv": {
+      "bytes": 77669,
+      "sha256": "2cc4e8814e4ab41cb57d5a9fa06246e8913af56310346f4609eaa36442494f86"
+    },
+    "analysis/orbit_routing/orbit33/routing_stage_1.tsv": {
+      "bytes": 77957,
+      "sha256": "7ca1129ec92287244ada4622cf3008a8e9210b41f53986a6e61d477c32c6b562"
+    },
+    "analysis/orbit_routing/orbit33/routing_stage_2.tsv": {
+      "bytes": 78909,
+      "sha256": "17511de0bcca2ee2bf13a6430ccd8bd27a7f25061def652e1037b5a7990c3f98"
+    },
+    "analysis/orbit_routing/orbit33/schreier_connectors.txt": {
+      "bytes": 90,
+      "sha256": "bfbf9b45b9bd7051fbb7bc4aac85a384823dd6d3b2a988291508674c60149433"
+    },
+    "analysis/orbit_routing/orbit34/orbit_slots.int32.bin": {
+      "bytes": 9600,
+      "sha256": "51440c5534a827513a11295126cf5fe762a1bc236306a6e032eb08684bfba444"
+    },
+    "analysis/orbit_routing/orbit34/primitive_word.txt": {
+      "bytes": 1675,
+      "sha256": "79a650863efe7ea007785c4684232f12c0da25ddc89bea332958196a2c712666"
+    },
+    "analysis/orbit_routing/orbit34/routing_metadata.txt": {
+      "bytes": 245,
+      "sha256": "35a25712db6356e71fb2974476e8d56ed4c268e59d7fd451e36a695017e3d493"
+    },
+    "analysis/orbit_routing/orbit34/routing_stage_0.tsv": {
+      "bytes": 50888,
+      "sha256": "bbb1123326f8a743c106e940411dba1ba80bb209d8f286ae294c7e80987ba19f"
+    },
+    "analysis/orbit_routing/orbit34/routing_stage_1.tsv": {
+      "bytes": 51249,
+      "sha256": "42849c30161c2fee5a7fe3fb73abfc32d1a8ee63d055b97f19f89b35ed770cab"
+    },
+    "analysis/orbit_routing/orbit34/routing_stage_2.tsv": {
+      "bytes": 53444,
+      "sha256": "1a412646dcf859ba78bb8532994b6b8d8cc176c88b950ab4cc23f33f3d3576ed"
+    },
+    "analysis/orbit_routing/orbit34/schreier_connectors.txt": {
+      "bytes": 202,
+      "sha256": "ae49c7820feb832bd2be4fc570e1a5bcb7da831e656f99597e64f4c24c811a2d"
+    },
+    "analysis/orbit_routing/orbit35/orbit_slots.int32.bin": {
+      "bytes": 480,
+      "sha256": "f72154268e34c21fce0c9ae19a1883cab6328511b0794fed0847b134ac9f9d97"
+    },
+    "analysis/orbit_routing/orbit35/primitive_word.txt": {
+      "bytes": 183,
+      "sha256": "bffb164b3d9ab9954852f9be0e25cef0ebda43af24ff93c9294dbd32ce26a6fa"
+    },
+    "analysis/orbit_routing/orbit35/routing_metadata.txt": {
+      "bytes": 322,
+      "sha256": "4b858cd773186b7a30ec3b73aa7495fd490f610ae8a2dd8d452d3054177b1408"
+    },
+    "analysis/orbit_routing/orbit35/routing_stage_0.tsv": {
+      "bytes": 2244,
+      "sha256": "f91dbe3a0b3217fb1d38f56d760f96c413c8cab803d52f791bad4c82293f1925"
+    },
+    "analysis/orbit_routing/orbit35/routing_stage_1.tsv": {
+      "bytes": 2240,
+      "sha256": "76016ea1c493a7fc2523ae17270f2a80dd8c025dbfb4a977fd2091b229af39d4"
+    },
+    "analysis/orbit_routing/orbit35/routing_stage_2.tsv": {
+      "bytes": 2232,
+      "sha256": "53ec8797ed416bd4709b009b37043d81ec1df092d32ad1cb37fd69dab7393942"
+    },
+    "analysis/orbit_routing/orbit35/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit4/orbit_slots.int32.bin": {
+      "bytes": 2880,
+      "sha256": "99ba3c9da93305fdabc228ddbae2aff84de8faf23e402107f61232122cc0af41"
+    },
+    "analysis/orbit_routing/orbit4/primitive_word.txt": {
+      "bytes": 447,
+      "sha256": "a2fdd15778bd144174293952862bd35477d675a00fa0ae2da9fd5f9adeb97033"
+    },
+    "analysis/orbit_routing/orbit4/routing_metadata.txt": {
+      "bytes": 467,
+      "sha256": "71710c443f9668faa4a54aa5a1020418985b490cfcafec6e81ce71b82e1e222a"
+    },
+    "analysis/orbit_routing/orbit4/routing_stage_0.tsv": {
+      "bytes": 14507,
+      "sha256": "b9e2a78dea1e8362251ce627bdf85a7f9ee872217e398e67d1a249ea9c8a6e60"
+    },
+    "analysis/orbit_routing/orbit4/routing_stage_1.tsv": {
+      "bytes": 14582,
+      "sha256": "195e281c63dad2e842fe493149819f029c0b2d7ddda2366f8b43ccfa03bf5658"
+    },
+    "analysis/orbit_routing/orbit4/routing_stage_2.tsv": {
+      "bytes": 14575,
+      "sha256": "f57c63eaf70a3f1370c7255d510d35586b4139b8df4c4709aede6e4be205fd26"
+    },
+    "analysis/orbit_routing/orbit4/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit5/orbit_slots.int32.bin": {
+      "bytes": 9600,
+      "sha256": "b87c6656e6356354babe0a7361d4303a77e17dcedf6e6586f2326efbfd83b07a"
+    },
+    "analysis/orbit_routing/orbit5/primitive_word.txt": {
+      "bytes": 87,
+      "sha256": "753b46f1bdf3d4df2b0478cbd383ad8a5de4f20546cfcc065b4e1bf5293d138d"
+    },
+    "analysis/orbit_routing/orbit5/routing_metadata.txt": {
+      "bytes": 459,
+      "sha256": "b41e0c97e98e9125b4b97b3223f116e17b1397394b32be51986581457d7da573"
+    },
+    "analysis/orbit_routing/orbit5/routing_stage_0.tsv": {
+      "bytes": 51407,
+      "sha256": "0bf85c24429e0aa48702ee70ee8e6a7e68ccdaff82427d70dd93aac66909ce1a"
+    },
+    "analysis/orbit_routing/orbit5/routing_stage_1.tsv": {
+      "bytes": 51557,
+      "sha256": "3f6c475e172bbedd84904c79a3b2d525354a24bd45691ddc9f3d8dcb9ac45af4"
+    },
+    "analysis/orbit_routing/orbit5/routing_stage_2.tsv": {
+      "bytes": 54018,
+      "sha256": "ae4dc9f60b084b334b320f0a5a9cd10bcaa43106f4209c79e6b0f7541ef56f9c"
+    },
+    "analysis/orbit_routing/orbit5/schreier_connectors.txt": {
+      "bytes": 65,
+      "sha256": "ac6e4442d04cc7f2219f8af831717e80323b44becd47f5d499842356640ee74b"
+    },
+    "analysis/orbit_routing/orbit6/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "8936cca6c03f976b7b2f680cd048eb8dab5d2508dd7fad2b324daf1f63f8477e"
+    },
+    "analysis/orbit_routing/orbit6/primitive_word.txt": {
+      "bytes": 89,
+      "sha256": "faf1a357dbf72f57f7e57b47f7449f1ea5f743607b0c53a1b4fc0001e2dfab15"
+    },
+    "analysis/orbit_routing/orbit6/routing_metadata.txt": {
+      "bytes": 429,
+      "sha256": "0cb0ffe9ca1b605151c9b66f5b5743cd5190d5dd74ad93c021bc2cc5fd4803dd"
+    },
+    "analysis/orbit_routing/orbit6/routing_stage_0.tsv": {
+      "bytes": 159893,
+      "sha256": "a96f2fdfa2b38f91245f2748559780f72c4c4af68141593b7fcbeaf62e3a3307"
+    },
+    "analysis/orbit_routing/orbit6/routing_stage_1.tsv": {
+      "bytes": 160294,
+      "sha256": "ae709948ba174e4ef696deee76ba169fddf607369c59e29bb58bbecef53944aa"
+    },
+    "analysis/orbit_routing/orbit6/routing_stage_2.tsv": {
+      "bytes": 160165,
+      "sha256": "839c2075b101553c23a332c3ca553b70d4ae6b8956df2f47f37f12cd8cee0939"
+    },
+    "analysis/orbit_routing/orbit6/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/orbit_routing/orbit7/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "d1d678c04030cdff1f773005e6a24cabc6091a78322513ac3a3d28d063447bab"
+    },
+    "analysis/orbit_routing/orbit7/primitive_word.txt": {
+      "bytes": 105,
+      "sha256": "6834dce48d508c06bc9784b00aba63de2d226dbf493203c1f224f2b819301d3c"
+    },
+    "analysis/orbit_routing/orbit7/routing_metadata.txt": {
+      "bytes": 436,
+      "sha256": "4c405f570ef1426c1bfc433e287f2e3a5c736a2b4d78ba6b3a2c254fbd4872e4"
+    },
+    "analysis/orbit_routing/orbit7/routing_stage_0.tsv": {
+      "bytes": 161305,
+      "sha256": "0c4d3355006bc8f901aaf1f67897d6a709b7bf4682844310110f7dbedc92163b"
+    },
+    "analysis/orbit_routing/orbit7/routing_stage_1.tsv": {
+      "bytes": 161354,
+      "sha256": "33ba593fee39b3ae95c296c52f54461fac37312b66133b8468598efe4650d69b"
+    },
+    "analysis/orbit_routing/orbit7/routing_stage_2.tsv": {
+      "bytes": 161974,
+      "sha256": "8f6d6df055f46799617e8ef52fb15075d8521d4e1aa4e292d4dfb43ebd8e6276"
+    },
+    "analysis/orbit_routing/orbit7/schreier_connectors.txt": {
+      "bytes": 105,
+      "sha256": "ad8f5c09ab97cab2d8e5cf6ed62b95e9973be1d64374ef6a79094b80efb8463d"
+    },
+    "analysis/orbit_routing/orbit8/orbit_slots.int32.bin": {
+      "bytes": 28800,
+      "sha256": "af832327bc624dba2acde080d8e08d5c6007aeeae9f22293052d307de30370fc"
+    },
+    "analysis/orbit_routing/orbit8/primitive_word.txt": {
+      "bytes": 83,
+      "sha256": "d2512dac7563c89441a0a063dbc8907bbf0da3769688a3185ee6ff02f5dbcfb1"
+    },
+    "analysis/orbit_routing/orbit8/routing_metadata.txt": {
+      "bytes": 419,
+      "sha256": "e59edc5f00c5d60899889208c9ff9292e068338f0888da61e076f2e4a39e431b"
+    },
+    "analysis/orbit_routing/orbit8/routing_stage_0.tsv": {
+      "bytes": 159014,
+      "sha256": "5f0190e761c5365ad52280aeb83b69617d7504d4c7cd84863bff025be75eface"
+    },
+    "analysis/orbit_routing/orbit8/routing_stage_1.tsv": {
+      "bytes": 159736,
+      "sha256": "b0966eb87730bc7baf3502a4b347fbdb702bea3914eba385a2fd454c39796043"
+    },
+    "analysis/orbit_routing/orbit8/routing_stage_2.tsv": {
+      "bytes": 161446,
+      "sha256": "c199f50f8d96aa52034a1100f96c33eaa77d4b636461c06b40a6c89c950f123e"
+    },
+    "analysis/orbit_routing/orbit8/schreier_connectors.txt": {
+      "bytes": 144,
+      "sha256": "138a6ca1fee399a22fcb5a877ba39c42c74b81b714eeec6f5a66882c18e3ff0c"
+    },
+    "analysis/orbit_routing/orbit9/orbit_slots.int32.bin": {
+      "bytes": 14400,
+      "sha256": "b82fff95dc58489ce48eaf24b471f1010fd6b7d04df4a443a681df7d07447531"
+    },
+    "analysis/orbit_routing/orbit9/primitive_word.txt": {
+      "bytes": 183,
+      "sha256": "52416f63721147880a391c52723c78aaf22c61509f7629816198331cd75ebd6a"
+    },
+    "analysis/orbit_routing/orbit9/routing_metadata.txt": {
+      "bytes": 414,
+      "sha256": "d12f29dad4a35dea05b5dc23a0eb7b396c5d5f6de96138b71f3c8c3d4b7d7106"
+    },
+    "analysis/orbit_routing/orbit9/routing_stage_0.tsv": {
+      "bytes": 78083,
+      "sha256": "ba32e62619cccaf32456165741ee24033030640d12cb86a298d9db5178921c81"
+    },
+    "analysis/orbit_routing/orbit9/routing_stage_1.tsv": {
+      "bytes": 78455,
+      "sha256": "8a151d9f1cef990e43a41816c938da56ff19eef79d3707b7f40f9fd07ff2d01f"
+    },
+    "analysis/orbit_routing/orbit9/routing_stage_2.tsv": {
+      "bytes": 78306,
+      "sha256": "452ef0227a10acdcbd9ad98a600923663c6461afc0dfd4d14840929f011c44cd"
+    },
+    "analysis/orbit_routing/orbit9/schreier_connectors.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "analysis/pieces/generator_orientation_sums.tsv": {
+      "bytes": 120423,
+      "sha256": "ab37b59463a2f78ba9dd877b42e93c1ad0458a693e428e9bf9ee60f8ed2ddf9b"
+    },
+    "analysis/pieces/generator_parities.tsv": {
+      "bytes": 44697,
+      "sha256": "a0b927f61eb4d374c202f75754865e6a158867a44eec8668115844c004349d59"
+    },
+    "analysis/pieces/orientation_characters.tsv": {
+      "bytes": 9172,
+      "sha256": "b40955ca8b3109dfdcc498a88aa1925574b8f8198c9b3aed8fd886b94fdeeb9b"
+    },
+    "analysis/pieces/orientation_groups.tsv": {
+      "bytes": 10776,
+      "sha256": "3f1373c70db740ebc1cd04818b0c005b55c4f9ff7c61036e1ce4233e64d94f44"
+    },
+    "analysis/pieces/pieces.tsv": {
+      "bytes": 10600685,
+      "sha256": "51699645799d0196392fadeebfdb2477378bfb758ba13efe46ce31a14a5834b2"
+    },
+    "analysis/pieces/summary.json": {
+      "bytes": 17551,
+      "sha256": "28bf58627c53fecfa1326233460fbba2a7ee1b3839d0c16b15826c9c46f9b364"
+    },
+    "analysis/pieces/transport_base_to_slot.bytes.bin": {
+      "bytes": 259800,
+      "sha256": "faf688d68be2ce32b2f742f0ff0c42e64c984cccd102566dabc9e47073d60760"
+    },
+    "analysis/primitives/orbit1/primitive_word.txt": {
+      "bytes": 361,
+      "sha256": "60abfdbc9342022aec351a65b78152f62773ed8f99f453b07b506859e6601b90"
+    },
+    "analysis/primitives/orbit10/primitive_word.txt": {
+      "bytes": 85,
+      "sha256": "1ae92759808c9a21f0bebffbe7d6582e3717d2795a38fd258c698e221f52a060"
+    },
+    "analysis/primitives/orbit11/primitive_word.txt": {
+      "bytes": 85,
+      "sha256": "4c89841705832614fa67eef84d13ce46f1265937ba9204cc0ca4982cc70482b6"
+    },
+    "analysis/primitives/orbit12/primitive_word.txt": {
+      "bytes": 187,
+      "sha256": "17e6707952b9b5f52494a9d302b5e54521647921c2307ff34f246f289b02380b"
+    },
+    "analysis/primitives/orbit13/primitive_word.txt": {
+      "bytes": 391,
+      "sha256": "bfc883d041398859afa4211be4aa63559b4e4e56dffc533903e074235ba87e10"
+    },
+    "analysis/primitives/orbit14/primitive_word.txt": {
+      "bytes": 35,
+      "sha256": "55389483f6abb29a586e8d7ddfc6770ff4ec559a6cad5cec7d67170e35178f42"
+    },
+    "analysis/primitives/orbit15/primitive_word.txt": {
+      "bytes": 931,
+      "sha256": "45d7905eaafbfdfcd9ee6d3a7147366e612ec707d4cef354ae1d42839fba8a98"
+    },
+    "analysis/primitives/orbit16/primitive_word.txt": {
+      "bytes": 85,
+      "sha256": "b8e89de761afba2292d38acc87c826f8b2e084aaedac721960672ce180c9eaef"
+    },
+    "analysis/primitives/orbit17/primitive_word.txt": {
+      "bytes": 195,
+      "sha256": "b836c44a6a799df8f1d0ccc2237c15bf6ca43d0c9755fb64f145b8a85fad5b80"
+    },
+    "analysis/primitives/orbit18/primitive_word.txt": {
+      "bytes": 819,
+      "sha256": "d32eb9c9db7d3c0912ef2f4c181c0de40f285d3330b87a650ba9c5c41fa6808f"
+    },
+    "analysis/primitives/orbit19/primitive_word.txt": {
+      "bytes": 87,
+      "sha256": "e55cd75aa485a782bb345fbd789f817a13bab3f6a17166f47650ff580c121583"
+    },
+    "analysis/primitives/orbit2/primitive_word.txt": {
+      "bytes": 91,
+      "sha256": "0335caf1f5f80ac357945d9dacad3a80b1ed8524eb2e8da5574c44942405911f"
+    },
+    "analysis/primitives/orbit20/primitive_word.txt": {
+      "bytes": 213,
+      "sha256": "2ad850c2a612739c38adc1238992ca8ed396c0b11cecea42126920e374915d42"
+    },
+    "analysis/primitives/orbit21/primitive_word.txt": {
+      "bytes": 187,
+      "sha256": "e6c39cf2963fd822b135677be7b1a936c235dff951e507d8496c5c4d8c11fb8b"
+    },
+    "analysis/primitives/orbit22/primitive_word.txt": {
+      "bytes": 407,
+      "sha256": "0826fecf36dad2ecf090c21ea1810e7ce39e7bceb04dfdd971ea4b74cd501e9b"
+    },
+    "analysis/primitives/orbit23/primitive_word.txt": {
+      "bytes": 407,
+      "sha256": "d0dc6c430e44f99c6f5a9cd9332c037de86630e9ab5483cfb75069f77da387cf"
+    },
+    "analysis/primitives/orbit24/primitive_word.txt": {
+      "bytes": 407,
+      "sha256": "a6670ffb0726a5f081d3cbabf52ee0dbd9539155b387422e7a3ccb7f123bcae4"
+    },
+    "analysis/primitives/orbit25/primitive_word.txt": {
+      "bytes": 835,
+      "sha256": "3d1685bd0f6d64b13e0fc79971fa7399958ad145c1cee5682b6d0f9c1f092c43"
+    },
+    "analysis/primitives/orbit26/primitive_word.txt": {
+      "bytes": 1679,
+      "sha256": "9fb353b2b8bc56d7b3b6c3025849e9e24e942ce897a1626176d6f8f75a9bfeea"
+    },
+    "analysis/primitives/orbit27/primitive_word.txt": {
+      "bytes": 831,
+      "sha256": "9aaab845c287aa4b6f730327289f9802a853af262640c8c4738781b5160e2749"
+    },
+    "analysis/primitives/orbit28/primitive_word.txt": {
+      "bytes": 963,
+      "sha256": "43a04d30a6e7e8595f634a8806d91caf3dbaa355a99d209d0395f2e68340f9f5"
+    },
+    "analysis/primitives/orbit3/primitive_word.txt": {
+      "bytes": 199,
+      "sha256": "d2e22d2bdb02d8ad8fd464a6f7d612b3654e7e46b844c8042137cbbacddfeda2"
+    },
+    "analysis/primitives/orbit30/primitive_word.txt": {
+      "bytes": 831,
+      "sha256": "6e1870f59027cee545241f463ffb2b2a7f19457fa03bf4e8204181aa2ac35478"
+    },
+    "analysis/primitives/orbit31/primitive_word.txt": {
+      "bytes": 407,
+      "sha256": "6ce82f3ab42e4922a1d7e9185874ab8797a2523e937c6bb19241fa977bed7d27"
+    },
+    "analysis/primitives/orbit32/primitive_word.txt": {
+      "bytes": 829,
+      "sha256": "f992984ceefa8f1df3cd51414cbfdfd971a48ab7eb81fdf3183437901cd16dc9"
+    },
+    "analysis/primitives/orbit35/primitive_word.txt": {
+      "bytes": 407,
+      "sha256": "d148dbc3f85c6429aa5fd5ea2c10eb1c2c8eba285ebfeadd176aa345facd82b6"
+    },
+    "analysis/primitives/orbit35_positions/primitive_word.txt": {
+      "bytes": 185,
+      "sha256": "514d2216ca1a61d444287db919582705d5d09d373a6ac01b8118d3f817631323"
+    },
+    "analysis/primitives/orbit4/primitive_word.txt": {
+      "bytes": 449,
+      "sha256": "75dc7dcbafd512f2f5272513a6745d3190f0b5b965b16d14c024c81960974d2b"
+    },
+    "analysis/primitives/orbit4_rotation/primitive_word.txt": {
+      "bytes": 205,
+      "sha256": "1e6eff02cfeff655766fac7c91df957f5b3100f8f55a9e2d569670cd4130c6e2"
+    },
+    "analysis/primitives/orbit4_rotation_short/primitive_word.txt": {
+      "bytes": 91,
+      "sha256": "916fff5a6bf415114e59aa8b1a83c83dcce09e8644474d55b4e40a2cd6d1cd16"
+    },
+    "analysis/primitives/orbit5/primitive_word.txt": {
+      "bytes": 89,
+      "sha256": "04ebc4262f639e3752c554ae97be13aaa2bed0b6539e4f16b1b4c4f4439f1977"
+    },
+    "analysis/primitives/orbit6/primitive_word.txt": {
+      "bytes": 91,
+      "sha256": "e1fa610e90a1f85ffb587a266a58ad2027c982a0aa3c302bf6ebb56ff1b80957"
+    },
+    "analysis/primitives/orbit7/primitive_word.txt": {
+      "bytes": 107,
+      "sha256": "123fe2d9f6d51eb576cce58c4c18c62f7c208f72b0a9a8e9394fbafe3e738a35"
+    },
+    "analysis/primitives/orbit8/primitive_word.txt": {
+      "bytes": 85,
+      "sha256": "8596bd236745ba5a7b8471e3d7b8619f6bc7f5537d2fc5cf2ab5924f01ca69e1"
+    },
+    "analysis/primitives/orbit9/primitive_word.txt": {
+      "bytes": 185,
+      "sha256": "e8b839732dea6c2ef9161566a8d823253424261388198c6731e5eefa34db000f"
+    },
+    "analysis/solver_dependencies/graph.json": {
+      "bytes": 172195,
+      "sha256": "df586c446c29d7fbdef02c31587c71548033bde95da02341a249c088660ca760"
+    },
+    "assets/model/anchor.dat": {
+      "bytes": 133,
+      "sha256": "6f1afadb862165e4763ad075d248c24aa62d2953701e5d6ace4880e0e8c9c532"
+    },
+    "assets/model/baseline.log": {
+      "bytes": 524050,
+      "sha256": "e5f881509fe14d3930042a840bc63c8cd38fdb25cf0745f6c5e581ce4566fac8"
+    },
+    "assets/reference/macro_anchor.png": {
+      "bytes": 2618086,
+      "sha256": "a0abc88e6f1d53e343852eda8d4dd9e3f2f2070ca69ef13b89ed793b17ed9a31"
+    },
+    "assets/reference/macro_anchor.provenance.json": {
+      "bytes": 475,
+      "sha256": "4f7f211351f6671e302a80e38dc975109836feee264bf18dccab372743cab757"
+    },
+    "examples/full-600-cell.puzzle.txt": {
+      "bytes": 304,
+      "sha256": "28e3ab5b1027e9ba1753ff132e685c219584e4a1c77afe570da4d432cee7ff17"
+    },
+    "examples/full_scramble_03.log": {
+      "bytes": 641154,
+      "sha256": "7e280f65a0a72577132d036135c8a484bb6eab85f8dc6202ac48cd593a2d28e2"
+    }
+  }
+}

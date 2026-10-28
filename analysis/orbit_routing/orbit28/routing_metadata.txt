@@ -1,0 +1,10 @@
+piece_orbit=28
+slots=7200
+primitive_piece_cycle=61250,159080,109003
+primitive_ordinal_cycle=2364,6399,4298
+connected_stabilizer_graphs=True
+orientation_mode=trivial
+allowed_collateral=29,32,33,34
+observed_primitive_collateral=29,32,33,34
+candidate_counts=0,0,0
+max_stage_turns=5,5,5

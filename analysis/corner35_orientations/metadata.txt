@@ -1,0 +1,10 @@
+orbit=35
+root_piece=432
+root_ordinal=3
+group_order=60
+root_full_label_checks=60
+slot_full_label_checks=120
+max_setup_turns=5
+max_library_turns=282
+allowed_collateral=24,25,26,27,28,29,30,31,32,33,34
+checks=PASS

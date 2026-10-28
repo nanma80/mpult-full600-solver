@@ -1,0 +1,11 @@
+{
+  "sha256": "a0abc88e6f1d53e343852eda8d4dd9e3f2f2070ca69ef13b89ed793b17ed9a31",
+  "width": 1554,
+  "height": 960,
+  "provenance": "User-supplied annotated screenshot; preserved byte-for-byte",
+  "annotation": "Red mark is the user-identified macro reference point",
+  "preserved_from_temporary_clipboard": true,
+  "embedded_html_exact_match": true,
+  "existing_output_copies": 4,
+  "future_output_readme": "supported_workflow.py includes local macro_anchor.png"
+}

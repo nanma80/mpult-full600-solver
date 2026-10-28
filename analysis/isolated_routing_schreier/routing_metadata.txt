@@ -1,0 +1,7 @@
+piece_orbit=29
+slots=7200
+primitive_piece_cycle=3358,27720,31287
+primitive_ordinal_cycle=173,1236,1392
+connected_stabilizer_graphs=True
+schreier_candidates_tested=257
+connectors=2

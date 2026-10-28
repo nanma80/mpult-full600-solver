@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.cs text eol=lf
+*.html text eol=lf
+# Keep frozen catalogs/calibration/upstream bytes exact for their checksums.
+/analysis/** -text
+/assets/** -text
+/examples/** -text
+/vendor/** -text
+*.bin binary
+*.png binary

@@ -1,0 +1,5 @@
+candidate	generator_id	stabilizer_turns	literal_turns	flipped_piece_ids	collateral_piece_counts
+candidate_01	1380	2	192	2937,31554	29:6;32:12;33:6;34:3;30:4;28:5
+candidate_02	2124	2	192	2937,31554	29:6;32:12;33:6;34:3;30:4;28:5
+candidate_03	44	4	196	415,31554	30:5;29:6;28:3;32:9;33:3
+candidate_04	194	4	196	415,31554	30:5;29:6;28:3;32:9;33:3
