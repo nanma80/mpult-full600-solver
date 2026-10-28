@@ -20,4 +20,4 @@ The prepared local branch is codex/portable-solver; renaming is optional. No rem
 
 Pushing the repository to remote storage preserves code, algorithms, catalogs, documentation and Git history off this computer. A local commit alone does not protect against failure of the computer.
 
-The release-preparation folder also supplies a source ZIP and a Git bundle. A ZIP preserves a source snapshot; a bundle preserves the committed Git history and can be cloned with git. Copy a backup off this computer and keep its SHA256 checksum. Large generated solutions are disposable, while small initial states and independent-validation evidence are useful to retain.
+The Git repository is the intended deliverable and off-computer copy; separate source ZIPs and Git bundles are optional and are not needed for this workflow. Large generated solutions are disposable, while small initial states and independent-validation evidence are useful to retain.

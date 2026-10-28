@@ -14,3 +14,5 @@ The expensive discovery work is preserved as code AND immutable data. Keep both.
 Move words are explicit numeric `axis:twist:turn_amount:layer_mask` sequences. Long algorithms are stored literally. A setup and inverse setup are assembled around a saved primitive when solving. There is no LLM memory dependency and no need to repeat the discovery search.
 
 Do not globally Git-ignore .bin files:some are essential piece/routing catalogs. Ignore generated output directories instead. `doctor.py` verifies every shipped data asset against ASSET_MANIFEST.json.
+
+The implementation now lives in mpult_solver/. See ARCHITECTURE.md for the shared catalog/permutation modules and orientation-specific solvers. Frozen algorithm data keeps its original paths and bytes.

@@ -304,7 +304,7 @@ Current algorithms prioritize deterministic completion over short solutions. The
 
 ```text
 
-python mpult_workflow.py solve-supported INPUT.log --output NEW_DIRECTORY
+python solve.py INPUT.log --output NEW_DIRECTORY
 
 ```
 

@@ -1,7 +1,7 @@
 """Public full-puzzle solve command; all planning uses colors only."""
 import argparse,json
 from pathlib import Path
-from supported_workflow import solve_supported
+from mpult_solver.workflow import solve_supported
 
 def main():
     ap=argparse.ArgumentParser(description='Generate a complete MPUlt full600-cell solution from current colors.')

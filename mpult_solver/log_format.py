@@ -1,6 +1,6 @@
 """v1.55 log serialization, verified against supplied application files."""
 from pathlib import Path
-from log_reader import read_log
+from .log_reader import read_log
 
 MASK64 = (1 << 64)-1
 def pack(move):

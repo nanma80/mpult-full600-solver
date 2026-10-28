@@ -2,15 +2,17 @@
 from pathlib import Path
 from array import array
 import csv,json,subprocess,sys,shutil
-from color_state import load,save
-from export_color_state import export
-from orbit29_solver import TrivialOrbitSolver
-from binary_orbit_solver import BinaryOrbitSolver
-from cyclic_orbit_solver import CyclicOrbitSolver
-from corner35_solver import Corner35Solver
-from orbit_stages import solve_stage
-from mpult_workflow import ROOT,BASELINE,digest,render,write_macros
-from mpult_files import verify_log,write_log
+from .state import load,save
+from .state_adapter import export
+from .solvers.trivial import TrivialOrbitSolver
+from .solvers.binary import BinaryOrbitSolver
+from .solvers.cyclic import CyclicOrbitSolver
+from .solvers.corners import Corner35Solver
+from .stages import solve_stage
+from .paths import ROOT,BASELINE
+from .engine import digest,render
+from .macros import write_macros
+from .log_format import verify_log,write_log
 
 def selected_schedule(graph,orbits=None):
     schedule=list(map(int,orbits.split(','))) if orbits else graph['tested_order']
@@ -111,13 +113,13 @@ The final prediction is `{logs[-1].name}`. These {len(schedule)} orbits should a
 
 Compare an actual saved result using:
 
-    python mpult_workflow.py check "{logs[-1]}" "{out/'results/after_steps.log'}"
+    python check.py "{logs[-1]}" "{out/'results/after_steps.log'}"
 
 All phases were computed from colors only and fully simulated. Every completed orbit was checked after every stage, unsupported colors were checked unchanged, expected-log checksums were verified, and all packed codes were read back. The recovered reference macro reader also loaded all {len(steps)+1} entries and matched every code to the simulated words. Real MPUlt1.55 integration remains pending until actual saved results are compared.
 
 Reproduce from any valid full-600-cell log with:
 
-    python mpult_workflow.py solve-supported INPUT.log --orbits {','.join(map(str,schedule))} --output NEW_OUTPUT_DIRECTORY
+    python solve.py INPUT.log --output NEW_OUTPUT_DIRECTORY
 ''',encoding='utf-8')
     progress('ready',completed=schedule,total_turns=counts[joint],manual_application_check='pending')
     return dict(status='READY',output=str(out),source=str(source),schedule=schedule,total_turns=counts[joint],macro_entries=len(steps)+1,solved_colors=len(controlled),whole_puzzle_solved=whole_puzzle_solved,other_unchanged_colors=len(outside),native_macro_reader='PASS')

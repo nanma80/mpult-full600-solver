@@ -66,6 +66,24 @@ python check.py runs/example03/35_expected_after_29.log runs/example03/results/a
 
 The picture marks a geometric location, not a fixed screen coordinate; camera scale and sticker colors can differ. The result should be a completely solved puzzle.
 
+## Code layout
+
+```text
+solve.py / check.py / doctor.py   Public Python commands
+setup.ps1                        Native build setup
+mpult_solver/                    Internal Python package
+  catalog.py / permutations.py   Shared solving foundations
+  solvers/                       Solvers by orientation structure
+engine/                          C# engine extensions
+analysis/                        Frozen algorithms and routing/catalog data
+assets/                          Model calibration and reference screenshot
+docs/                            Human overview, architecture and validation
+examples/                        Small reproducible inputs
+vendor/mpult/                    Pinned reference source and original license
+```
+
+See [architecture](docs/ARCHITECTURE.md) for the internal module map. Run the focused checks with `python -m unittest discover -s tests -v`. The public commands are unchanged; no package installation or pip dependencies are required.
+
 ## What is preserved
 
 - Production Python planning/serialization code and native C# engine extensions.
@@ -86,4 +104,4 @@ See the [publishing and backup checklist](docs/PUBLISHING.md) for the remaining 
 
 ## Clean-clone restore check
 
-A separate Git clone in a path with spaces was rebuilt and used to solve the included scramble03. It reproduced the **same 7,982,494-move macro bytes and all 35 expected state logs** as the earlier actual-app-validated package. All 324 data assets passed their hashes, and all 13 production Python modules loaded from inside the clone. This was a relocation check on the same Windows computer, not a separate-machine test. See PORTABILITY_CHECK.json for the tested code commit and exact macro hash.
+A separate Git clone in a path with spaces was rebuilt and used to solve the included scramble03. It reproduced the **same 7,982,494-move macro bytes and all 35 expected state logs** as the earlier actual-app-validated package. All 324 data assets passed their hashes, and production imports resolved inside the clone. This was a relocation check on the same Windows computer, not a separate-machine test. See PORTABILITY_CHECK.json for the tested code commit and exact macro hash.

@@ -2,8 +2,10 @@
 import base64,csv
 from collections import defaultdict
 from pathlib import Path
-from color_state import validate
-from orbit29_solver import ROOT,OrbitColorCatalog,permutation_parity,three_cycles
+from ..state import validate
+from ..paths import ROOT
+from ..catalog import OrbitColorCatalog
+from ..permutations import permutation_parity,three_cycles
 
 class CyclicOrbitSolver(OrbitColorCatalog):
     def __init__(self,orbit_id=26,root=ROOT):

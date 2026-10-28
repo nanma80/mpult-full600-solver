@@ -2,8 +2,10 @@
 from collections import defaultdict
 from pathlib import Path
 import json
-from color_state import validate
-from orbit29_solver import ROOT,OrbitColorCatalog,permutation_parity,three_cycles
+from ..state import validate
+from ..paths import ROOT
+from ..catalog import OrbitColorCatalog
+from ..permutations import permutation_parity,three_cycles
 
 class BinaryOrbitSolver(OrbitColorCatalog):
     def __init__(self,orbit_id=33,root=ROOT,routing_dir=None):
