@@ -17,3 +17,5 @@ The orientation/routing methods also passed model checks on broad synthetic lega
 ## Portable checkout verification
 
 The clean-clone restore result is recorded in PORTABILITY_CHECK.json at repository root when the release preparation check is complete. Building in another folder and reproducing the validated macro output checks that no original research-tree paths or missing algorithm data are required.
+
+The clean-clone check PASSED:7,982,494 moves,36 macro entries, exact macro-byte equality and all35 expected logs identical to the original validated package.324 frozen data assets and13 local production imports verified. The newly compiled engine also passed its19341000 map checks and100-move label round trip. See ../PORTABILITY_CHECK.json.

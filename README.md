@@ -73,3 +73,9 @@ No algorithm discovery, AI session or stored eight-million-move solution is need
 This is a compact runtime/source repository, not the complete research archive. The research folder remains separate. Use Git commits to preserve revisions, and push/copy the repository off this computer to protect against computer failure. A local Git repository alone is not an off-computer backup.
 
 Before public publication, choose a license for the newly written solver code (see `LICENSE-PENDING.md`). Existing upstream notices are preserved unchanged. No original MPUlt executable or DirectX binaries are distributed by this repository.
+
+See the [publishing and backup checklist](docs/PUBLISHING.md) for the remaining maintainer steps.
+
+## Clean-clone restore check
+
+A separate Git clone in a path with spaces was rebuilt and used to solve the included scramble03. It reproduced the **same 7,982,494-move macro bytes and all 35 expected state logs** as the earlier actual-app-validated package. All 324 data assets passed their hashes, and all 13 production Python modules loaded from inside the clone. This was a relocation check on the same Windows computer, not a separate-machine test. See PORTABILITY_CHECK.json for the tested code commit and exact macro hash.
