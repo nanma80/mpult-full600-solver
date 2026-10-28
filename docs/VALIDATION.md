@@ -18,4 +18,8 @@ The orientation/routing methods also passed model checks on broad synthetic lega
 
 The clean-clone restore result is recorded in PORTABILITY_CHECK.json at repository root when the release preparation check is complete. Building in another folder and reproducing the validated macro output checks that no original research-tree paths or missing algorithm data are required.
 
-The clean-clone check PASSED:7,982,494 moves,36 macro entries, exact macro-byte equality and all35 expected logs identical to the original validated package.324 frozen data assets and13 local production imports verified. The newly compiled engine also passed its19341000 map checks and100-move label round trip. See ../PORTABILITY_CHECK.json.
+The clean-clone check PASSED:7,982,494 moves,36 macro entries, exact macro-byte equality and all 35 expected logs identical to the original validated package.324 frozen data assets verified. The newly compiled engine also passed its19341000 map checks and100-move label round trip. See ../PORTABILITY_CHECK.json.
+
+## Package restructuring regression
+
+The reorganized mpult_solver package passed six focused behavior checks and a full fresh-clone build/solve. All 21 implementation modules resolved inside the clone. The result is the identical 7,982,494-move macro, with all 35 expected state logs byte-identical to the actual-app-validated package. The algorithm tables and native source were not changed. PORTABILITY_CHECK.json identifies the tested code revision. Public solve.py/check.py/doctor.py commands retain their arguments.

@@ -28,3 +28,5 @@ Algorithm data under analysis/ and assets/ remains byte-for-byte unchanged. Some
 Run focused checks with: python -m unittest discover -s tests -v
 
 The full refactoring regression is a clean-clone setup followed by solving examples/full_scramble_03.log and comparing macro bytes and all35 expected state logs against the actual-app-validated output. PORTABILITY_CHECK.json records the result.
+
+Result: the restructuring regression PASSED. All 324 assets are unchanged; all 21 package modules load from the fresh clone; the complete macro and 35 expected logs are byte-for-byte identical. No new app playback is required to establish that this structural change preserved the already validated solution.

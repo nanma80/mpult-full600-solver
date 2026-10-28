@@ -1,8 +1,32 @@
 {
-  "status": "PENDING: package restructuring full regression",
-  "previous_tested_code_commit": "7fedfd84035c746965e583a88a181ef4fdab1487",
-  "previous_macro_sha256": "f202ad24eb1e1634dd1a2c193f228b32a4208211517ae72e92dcc05f9a26625a",
-  "target_input": "examples/full_scramble_03.log",
-  "target_solution_moves": 7982494,
-  "algorithm_assets_unchanged": true
+  "status": "PASS",
+  "test_kind": "Post-restructure local Git clone in a separate path with spaces; rebuild and full regression",
+  "tested_code_commit": "0b892aa41471d6e2dc9ccfb774d849134da6d393",
+  "platform": "Windows x64",
+  "python": "3.12.14",
+  "requires_original_research_tree": false,
+  "engine_built_from_vendored_source": true,
+  "external_app_dependencies": "Three DirectX DLLs supplied by the MPUlt1.55 application folder",
+  "immutable_asset_files_verified": 324,
+  "algorithm_and_native_source_assets_unchanged": true,
+  "package_modules_resolve_inside_clone": 21,
+  "public_python_commands": [
+    "solve.py",
+    "check.py",
+    "doctor.py"
+  ],
+  "focused_behavior_tests_passed": 6,
+  "shared_and_solver_implementation_body_comparisons": "PASS",
+  "input": "examples/full_scramble_03.log",
+  "strict_color_input_matches_validated_case": true,
+  "solution_moves": 7982494,
+  "all35_orbits_solved": true,
+  "whole_puzzle_solved": true,
+  "macro_entries": 36,
+  "reference_macro_reader": "PASS",
+  "macro_bytes_identical_to_actual_app_validated_solution": true,
+  "macro_sha256": "f202ad24eb1e1634dd1a2c193f228b32a4208211517ae72e92dcc05f9a26625a",
+  "all35_expected_logs_byte_identical": true,
+  "source_unchanged": true,
+  "note": "Relocation/build/regression on the same Windows computer, not a separate-machine installation. The identical macro was previously validated in actual MPUlt1.55."
 }
