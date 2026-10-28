@@ -11,7 +11,15 @@ The complete workflow has been exercised in the real app. Most importantly, a us
 - Your own working MPUlt 1.55 application folder containing the three Microsoft.DirectX DLLs. The app and DLLs are not included here.
 - The full 600-cell definition, with the `Simplified` line removed. The included example already has the right definition.
 
-To add the puzzle to the app menu, copy the block in `examples/full-600-cell.puzzle.txt` into your `MPUlt_puzzles.txt`. It is named `full-600-cell` and has no `Simplified` line. Alternatively start the example by opening its log, which contains the full definition.
+## Download MPUlt and enable the full 600-cell
+
+1. Open [Andrey Astrelin’s MPUlt page](https://superliminal.com/andrey/mpu/) and follow **“Download the puzzle here”**. Extract the download into a folder. This solver is tested with MPUlt 1.55; make sure the application runs before setting up the solver.
+2. Open `MPUlt_puzzles.txt` in that application folder. The default `600-cell` entry describes the **simplified** puzzle.
+3. Duplicate the entire block starting with `Puzzle 600-cell` and ending with its matching `EndPuzzle`. Keep the original block so the simplified puzzle remains available.
+4. In the copied block, change the first line to `Puzzle full-600-cell` and remove the line `Simplified`. Leave the other settings unchanged.
+5. Save the file, reopen MPUlt and select `full-600-cell` from the puzzle menu before scrambling.
+
+For a complete ready-to-copy block, use [examples/full-600-cell.puzzle.txt](examples/full-600-cell.puzzle.txt). The exact name `full-600-cell` matches the solver and generated macro files. The bundled example log already contains the full definition.
 
 The recovered reference source is pinned and vendored under `vendor/mpult`, with its original MIT notice. It supplies geometry and the reference macro reader; the actual1.55 application remains authoritative.
 
