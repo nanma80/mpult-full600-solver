@@ -1297,6 +1297,10 @@
     "examples/full_scramble_03.log": {
       "bytes": 641154,
       "sha256": "7e280f65a0a72577132d036135c8a484bb6eab85f8dc6202ac48cd593a2d28e2"
+    },
+    "assets/reference/log_start_view.png": {
+      "bytes": 1534193,
+      "sha256": "57cece8c16ff93634398c97a2e3fc2fac11b8b9384147aaa2d6cdc82ee4f8d0b"
     }
   }
 }

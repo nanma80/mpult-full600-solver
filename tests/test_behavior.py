@@ -36,6 +36,8 @@ class PublicCommandTests(unittest.TestCase):
     def test_doctor_locates_assets_from_another_directory(self):
         with tempfile.TemporaryDirectory() as folder:
             run=subprocess.run([sys.executable,str(ROOT/'doctor.py')],cwd=folder,capture_output=True,text=True)
-            self.assertEqual(run.returncode,0,run.stderr);self.assertEqual(json.loads(run.stdout)['asset_files'],324)
+            self.assertEqual(run.returncode,0,run.stderr)
+            expected=len(json.loads((ROOT/'ASSET_MANIFEST.json').read_text())['files'])
+            self.assertEqual(json.loads(run.stdout)['asset_files'],expected)
 
 if __name__=='__main__':unittest.main()

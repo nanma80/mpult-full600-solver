@@ -6,6 +6,14 @@ This is the reference point used in the successful MPUlt 1.55 full-solve tests. 
 
 
 
+## 1. Starting view after opening a log
+
+![Starting viewpoint immediately after opening a log, before dragging](../assets/reference/log_start_view.png)
+
+If you load a `.log` file and see this view, hold the right mouse button and drag downward a little until the white cell emerges from behind the camera and comes into view. Sticker colors may differ from this example.
+
+## 2. Ready to apply macros
+
 ![Macro reference point marked in red](../assets/reference/macro_anchor.png)
 
 

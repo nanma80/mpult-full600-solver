@@ -31,6 +31,8 @@ def solve_supported(source,output,orbits=None):
     out.mkdir(parents=True,exist_ok=True);(out/'results').mkdir(exist_ok=True);internal=out/'engine_data';internal.mkdir(exist_ok=True)
     anchor_image=out/'macro_anchor.png'
     if anchor_source.resolve()!=anchor_image.resolve():shutil.copyfile(anchor_source,anchor_image)
+    start_view=out/'log_start_view.png'
+    shutil.copyfile(ROOT/'assets/reference/log_start_view.png',start_view)
     graph_path=ROOT/'analysis/solver_dependencies/graph.json';graph=json.loads(graph_path.read_text());schedule=selected_schedule(graph,orbits)
     groups={int(r['orbit']):int(r['group_order']) for r in csv.DictReader((ROOT/'analysis/pieces/orientation_groups.tsv').open(),delimiter='\t')}
     if any(groups[o] not in (1,2,5,10,60) or (groups[o]==60 and o!=35) for o in schedule):raise ValueError('Unsupported solver group')
@@ -80,7 +82,7 @@ def solve_supported(source,output,orbits=None):
     if digest(source)!=source_hash:raise ValueError('Source changed during integration')
     whole_puzzle_solved=all(c==p//433 for p,c in enumerate(data['colors']))
     counts={n:len(w)//4 for n,w in steps};counts[joint]=sum(counts.values())
-    files=[out/'joint_solution.dat',anchor_image,*logs]
+    files=[out/'joint_solution.dat',anchor_image,start_view,*logs]
     manifest=dict(status='model integration PASS; manual v1.55 integration pending',source_path=str(source),source_sha256=source_hash,
                   strict_color_input_sha256=digest(internal/'input.color.json'),engine_sha256=digest(ROOT/'MoveEngine.exe'),dependency_graph_sha256=digest(graph_path),
                   schedule=schedule,whole_puzzle_solved=whole_puzzle_solved,solved_colors=len(controlled),other_unchanged_colors=len(outside),macro_turns=counts,stages=statistics,
@@ -95,6 +97,14 @@ Start by opening this exact log in MPUlt1.55:
     {start}
 
 Load `joint_solution.dat`. Opening a `.log` file starts with the white cell out of sight: hold the right mouse button and drag downward a little until it emerges from behind the camera and comes into view. Selecting the puzzle from the menu, or starting the app with it automatically loaded, already places the white cell at the front and needs no view adjustment. Use the established top-face anchor above the horizontal edge, slightly left. The red mark in the screenshot below shows the reference point. This package does not require replacing the source with a derived log. The source SHA256 is in manifest.json and was unchanged throughout generation.
+
+### Starting view after opening a log
+
+![Starting view before dragging](log_start_view.png)
+
+From this view, hold the right mouse button and drag downward until the white cell comes into view. Sticker colors may differ.
+
+### Ready to apply macros
 
 ![Macro reference point marked in red](macro_anchor.png)
 

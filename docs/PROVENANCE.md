@@ -9,3 +9,5 @@ The geometry/reference-reader source under vendor/mpult is pinned to the supplie
 The new solver was developed collaboratively by the project maintainer and OpenAI Codex. It uses current sticker colors only, plus geometry/algorithm data built and checked during investigation. The macro-anchor image was supplied and annotated by the maintainer, and is preserved unchanged.
 
 This repository contains selected reusable runtime data and code; the complete research archive, rejected searches and large generated runs remain outside it. No claim about being the first such solver is made here.
+
+The maintainer also supplied `assets/reference/log_start_view.png`, showing the viewpoint immediately after loading a log, before dragging. It is preserved unchanged and paired with the marked macro-anchor screenshot in the usage guide and future generated solution folders.
