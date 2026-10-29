@@ -98,7 +98,7 @@ No algorithm discovery, AI session or stored eight-million-move solution is need
 
 This is a compact runtime/source repository, not the complete research archive. The research folder remains separate. Use Git commits to preserve revisions, and push/copy the repository off this computer to protect against computer failure. A local Git repository alone is not an off-computer backup.
 
-Before public publication, choose a license for the newly written solver code (see `LICENSE-PENDING.md`). Existing upstream notices are preserved unchanged. No original MPUlt executable or DirectX binaries are distributed by this repository.
+The new solver code, generated algorithm data and documentation are available under the [MIT license](LICENSE). The bundled MPUlt reference source retains its [original MIT notice](vendor/mpult/LICENSE). No original MPUlt executable or DirectX binaries are distributed by this repository.
 
 See the [publishing and backup checklist](docs/PUBLISHING.md) for the remaining maintainer steps.
 
