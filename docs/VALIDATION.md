@@ -23,3 +23,11 @@ The clean-clone check PASSED:7,982,494 moves,36 macro entries, exact macro-byte 
 ## Package restructuring regression
 
 The reorganized mpult_solver package passed six focused behavior checks and a full fresh-clone build/solve. All 21 implementation modules resolved inside the clone. The result is the identical 7,982,494-move macro, with all 35 expected state logs byte-identical to the actual-app-validated package. The algorithm tables and native source were not changed. PORTABILITY_CHECK.json identifies the tested code revision. Public solve.py/check.py/doctor.py commands retain their arguments.
+
+## Custom puzzle names
+
+Custom names are read from the input log and preserved in generated macro headers, expected-state logs and package manifests. The full puzzle definition remains strictly constrained; `Simplified` and changed cuts are rejected regardless of name. Names are nonempty tokens without whitespace or control characters, matching the MPUlt file formats.
+
+Automated tests cover `full-600-cell`, `600-cell-full`, `600-cell`, and another custom name; they check color-only export, checksummed log round-trips and macro headers. Orbit-29 packaging runs from the same scrambled colors under `600-cell-full` and `600-cell` pass the native reference macro reader and produce identical move payloads after accounting for the name. A one-turn forward/reverse actual-app test is prepared locally; actual MPUlt 1.55 acceptance of the custom-name package remains pending that manual check. Solving tables and move algorithms are unchanged.
+
+After updating to this feature, rerun `setup.ps1` to rebuild the native verifier alongside the Python changes.

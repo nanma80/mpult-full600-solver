@@ -109,7 +109,7 @@ partial class MoveEngine {
         Console.WriteLine("PASS: {0} positions, {1} orbits, {2} generators, {3} generator entries; orbit preservation checked",Count,canonical.Count,generators,edges);
     }
     static void Main(string[] args) {
-        if(args.Length!=3)throw new ArgumentException("MoveEngine baseline.log jobs.tsv output-directory");
+        if(args.Length!=3 && !(args.Length==4 && args[1]=="--verify-macro-package"))throw new ArgumentException("MoveEngine baseline.log jobs.tsv output-directory [puzzle-name for --verify-macro-package]");
         var engine=new MoveEngine(args[0]);engine.Validate();Directory.CreateDirectory(args[2]);
         if(args[1]=="--self-check") {Console.WriteLine("PASS: full600-cell engine ready");return;}
         if(args[1]=="--orbits") {engine.ExportOrbits(args[2]);return;}
@@ -120,7 +120,7 @@ partial class MoveEngine {
         if(args[1]=="--search-nested") {engine.SearchCommutators(args[2],true);return;}
         if(args[1]=="--search-anchor") {engine.SearchCommutators(args[2],false,Path.Combine(args[2],"anchor_word.txt"));return;}
         if(args[1]=="--search-dirty29") {engine.SearchCommutators(args[2],false,Path.Combine(args[2],"anchor_word.txt"),new[]{29});return;}
-        if(args[1]=="--verify-macro-package") {engine.VerifyMacroPackage(args[2]);return;}
+        if(args[1]=="--verify-macro-package") {engine.VerifyMacroPackage(args[2],args.Length>3?args[3]:"full-600-cell");return;}
         if(args[1]=="--validate-dihedral4-words") {engine.ValidateDihedral4Words(args[2]);return;}
         if(args[1]=="--prepare-dihedral4") {engine.PrepareDihedral4(args[2]);return;}
         if(args[1]=="--render-dihedral4-kernel") {engine.RenderDihedral4Kernel(args[2]);return;}

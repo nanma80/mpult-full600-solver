@@ -39,7 +39,7 @@ def solve_supported(source,output,orbits=None):
     source_hash=digest(source)
     if source.suffix.lower()=='.log':verify_log(source);export(source,internal/'input.color.json');start=source
     else:save(internal/'input.color.json',load(source));start=out/'00_start_no_history.log'
-    initial=load(internal/'input.color.json');data=initial;description=['Puzzle full-600-cell',*data['puzzle']['definition'],'EndPuzzle']
+    initial=load(internal/'input.color.json');data=initial;puzzle_name=data['puzzle']['name'];description=['Puzzle '+puzzle_name,*data['puzzle']['definition'],'EndPuzzle']
     if start!=source:write_log(start,description,data['colors'],[]);verify_log(start)
     piece_rows=list(csv.DictReader((ROOT/'analysis/pieces/pieces.tsv').open(),delimiter='\t'))
     positions={o:{int(p) for row in piece_rows if int(row['orbit'])==o for p in row['positions'].split(',')} for o in schedule}
@@ -74,17 +74,17 @@ def solve_supported(source,output,orbits=None):
         progress('solving',completed=schedule[:index],schedule=schedule,turns_so_far=sum(len(w)//4 for n,w in steps))
     if done!=controlled or any(data['colors'][p]!=(p//433 if p in controlled else initial['colors'][p]) for p in range(259800)):raise ValueError('Final integration isolation check failed')
     progress('packaging',completed=schedule)
-    joint='all_steps_'+ '_'.join(map(str,schedule));write_macros(out/'joint_solution.dat',steps,joint)
+    joint='all_steps_'+ '_'.join(map(str,schedule));write_macros(out/'joint_solution.dat',steps,joint,puzzle_name=puzzle_name)
     native_rows.append((joint,[paths[0] for name,paths in native_rows]))
     (out/'macro_expected.tsv').write_text('\n'.join(name+'\t'+';'.join(map(str,paths)) for name,paths in native_rows))
     with (out/'native_macro_execution.txt').open('w') as log:
-        subprocess.run([str(ROOT/'MoveEngine.exe'),str(BASELINE),'--verify-macro-package',str(out)],stdout=log,stderr=subprocess.STDOUT,check=True)
+        subprocess.run([str(ROOT/'MoveEngine.exe'),str(BASELINE),'--verify-macro-package',str(out),puzzle_name],stdout=log,stderr=subprocess.STDOUT,check=True)
     if digest(source)!=source_hash:raise ValueError('Source changed during integration')
     whole_puzzle_solved=all(c==p//433 for p,c in enumerate(data['colors']))
     counts={n:len(w)//4 for n,w in steps};counts[joint]=sum(counts.values())
     files=[out/'joint_solution.dat',anchor_image,start_view,*logs]
     manifest=dict(status='model integration PASS; manual v1.55 integration pending',source_path=str(source),source_sha256=source_hash,
-                  strict_color_input_sha256=digest(internal/'input.color.json'),engine_sha256=digest(ROOT/'MoveEngine.exe'),dependency_graph_sha256=digest(graph_path),
+                  puzzle_name=puzzle_name,strict_color_input_sha256=digest(internal/'input.color.json'),engine_sha256=digest(ROOT/'MoveEngine.exe'),dependency_graph_sha256=digest(graph_path),
                   schedule=schedule,whole_puzzle_solved=whole_puzzle_solved,solved_colors=len(controlled),other_unchanged_colors=len(outside),macro_turns=counts,stages=statistics,
                   macro_entries=len(steps)+1,packed_move_roundtrip='PASS',reference_macro_reader='PASS',source_unchanged=True,
                   files={p.name:dict(bytes=p.stat().st_size,sha256=digest(p)) for p in files})

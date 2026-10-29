@@ -4,6 +4,9 @@ from pathlib import Path
 from mpult_solver.paths import ROOT,BASELINE
 from mpult_solver.permutations import permutation_parity,three_cycles,apply_cycle
 from mpult_solver.state import validate
+from mpult_solver.state_adapter import export
+from mpult_solver.log_format import write_log,verify_log
+from mpult_solver.macros import write_macros
 
 class PermutationTests(unittest.TestCase):
     def test_even_permutations_are_corrected(self):
@@ -18,6 +21,30 @@ class PermutationTests(unittest.TestCase):
         with self.assertRaises(ValueError):three_cycles([1,0,2])
 
 class InputTests(unittest.TestCase):
+    def test_custom_names_roundtrip_without_changing_colors_or_moves(self):
+        original=verify_log(ROOT/'examples/full_scramble_03.log')
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            for name in ['full-600-cell','600-cell-full','600-cell','my_puzzle']:
+                source=root/'input.log'
+                text=(ROOT/'examples/full_scramble_03.log').read_bytes().replace(b'full-600-cell',name.encode())
+                source.write_bytes(text)
+                verify_log(source)
+                state=export(source,root/'colors.json')
+                self.assertEqual(state['puzzle']['name'],name)
+                self.assertEqual(state['colors'],original['colors'])
+                description=['Puzzle '+name,*state['puzzle']['definition'],'EndPuzzle']
+                write_log(root/'expected.log',description,state['colors'],[])
+                self.assertEqual(export(root/'expected.log',root/'expected.json'),state)
+                write_macros(root/'macro.dat',[('test',[0,0,1,1])],puzzle_name=name)
+                self.assertEqual((root/'macro.dat').read_text().splitlines()[1],name+' 4 2')
+    def test_custom_names_do_not_relax_geometry(self):
+        definition=json.loads((ROOT/'analysis/model_definition.json').read_text())
+        state={'schema':'mpult-color-state/v1','puzzle':{'name':'600-cell','definition':definition},'colors':[i//433 for i in range(259800)]}
+        for name in ['', 'two words','bad\nname']:
+            with self.assertRaises(ValueError):validate(dict(state,puzzle=dict(state['puzzle'],name=name)))
+        for changed in [definition+['Simplified'],[s.replace('0.968','0.97') for s in definition]]:
+            with self.assertRaises(ValueError):validate(dict(state,puzzle=dict(state['puzzle'],definition=changed)))
     def test_history_excluded_at_both_levels(self):
         state={'schema':'mpult-color-state/v1','puzzle':{'name':'full-600-cell','definition':json.loads((ROOT/'analysis/model_definition.json').read_text())},'colors':[i//433 for i in range(259800)]}
         validate(state)

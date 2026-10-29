@@ -1,6 +1,7 @@
 """v1.55 log serialization, verified against supplied application files."""
 from pathlib import Path
 from .log_reader import read_log
+from .state import validate_name
 
 MASK64 = (1 << 64)-1
 def pack(move):
@@ -32,10 +33,12 @@ def verify_log(path):
     return log
 
 def write_log(path, description, colors, moves):
+    if not description[0].startswith('Puzzle '):raise ValueError('Missing puzzle name')
+    name=validate_name(description[0][len('Puzzle '):])
     alphabet='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     data=''.join(alphabet[c%36]+alphabet[c//36] for c in colors)
     crc=checksum(colors,[pack(m) for m in moves],0,len(moves),0)
-    lines=[f'MPUltimate v1.5 full-600-cell {len(moves)} 0 {len(moves)}',*description,
+    lines=[f'MPUltimate v1.5 {name} {len(moves)} 0 {len(moves)}',*description,
            f'2 {len(colors)}',*[data[i:i+256] for i in range(0,len(data),256)],
            '#timer 0',f'#CRC {crc}','*']
     if moves: lines+=['m| '+' '.join(':'.join(map(str,m)) for m in moves)+' .']

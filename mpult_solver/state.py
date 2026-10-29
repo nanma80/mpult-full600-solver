@@ -3,6 +3,11 @@ from pathlib import Path
 import json
 
 SCHEMA='mpult-color-state/v1'
+
+def validate_name(name):
+    if type(name) is not str or not name or any(c.isspace() or ord(c)<32 or ord(c)==127 for c in name):
+        raise ValueError('Puzzle name must be a nonempty token without whitespace or control characters')
+    return name
 def validate(data):
     if type(data) is not dict or set(data)!={'schema','puzzle','colors'}:
         raise ValueError('Only schema, puzzle, and colors are allowed')
@@ -10,7 +15,7 @@ def validate(data):
     puzzle=data['puzzle']
     if type(puzzle) is not dict or set(puzzle)!={'name','definition'}:
         raise ValueError('Only name and definition are allowed in puzzle')
-    if puzzle['name']!='full-600-cell':raise ValueError('Unsupported puzzle')
+    validate_name(puzzle['name'])
     definition=puzzle['definition']
     if type(definition) is not list or not definition or any(type(s) is not str for s in definition):
         raise ValueError('Definition must be a nonempty list of strings')
@@ -18,6 +23,8 @@ def validate(data):
     if len(definition)!=8 or {s.split()[0] if s.split() else '' for s in definition}!=allowed:
         raise ValueError('Unexpected puzzle definition directives')
     if any('\n' in s or '\r' in s for s in definition):raise ValueError('Multiline directive')
+    expected=json.loads((Path(__file__).resolve().parent.parent/'analysis/model_definition.json').read_text())
+    if definition!=expected:raise ValueError('Definition does not match validated geometry')
     colors=data['colors']
     if type(colors) is not list or len(colors)!=259800 or any(type(c) is not int or not 0<=c<600 for c in colors):
         raise ValueError('Expected 259800 integer colors in range 0..599')

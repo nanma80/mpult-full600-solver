@@ -4,9 +4,9 @@ using System.Linq;
 using System.Collections.Generic;
 namespace _3dedit {
 partial class MoveEngine {
-    public void VerifyMacroPackage(string directory) {
+    public void VerifyMacroPackage(string directory,string puzzleName) {
         var native=new CMacroFile(Path.Combine(directory,"joint_solution.dat"));
-        if(!native.CheckSize("full-600-cell") || native.FileName==null)throw new Exception("Reference macro reader rejected file");
+        if(!native.CheckSize(puzzleName) || native.FileName==null)throw new Exception("Reference macro reader rejected file");
         var lines=File.ReadAllLines(Path.Combine(directory,"macro_expected.tsv"));var names=native.GetNamesList();
         if(names.Length!=lines.Length)throw new Exception("Macro entry count mismatch");
         var reports=new List<string>{"name\tturns\tchecks"};long total=0;CMacro first=null;

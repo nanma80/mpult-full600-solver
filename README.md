@@ -19,7 +19,7 @@ The complete workflow has been exercised in the real app. Most importantly, a us
 4. In the copied block, change the first line to `Puzzle full-600-cell` and remove the line `Simplified`. Leave the other settings unchanged.
 5. Save the file, reopen MPUlt and select `full-600-cell` from the puzzle menu before scrambling.
 
-For a complete ready-to-copy block, use [examples/full-600-cell.puzzle.txt](examples/full-600-cell.puzzle.txt). **The name must be exactly `full-600-cell`: the solver rejects logs saved under any other name with `ValueError: Unsupported puzzle`, even if the puzzle geometry is identical.** This name also matches the generated macro files. The bundled example log already contains the full definition.
+For a complete ready-to-copy block, use [examples/full-600-cell.puzzle.txt](examples/full-600-cell.puzzle.txt). **Custom puzzle names are supported:** `full-600-cell`, `600-cell-full`, or simply `600-cell` all work. The solver reads the name from your input log and preserves it in generated macros and expected-state logs. Names must be a single token without whitespace. The remaining definition must exactly match the supported full puzzle, including `Cuts 0.968 -0.968` and no `Simplified` line; changing the name does not relax the geometry check. If keeping both versions, you can name the simplified one `600-cell-simplified`. The bundled example uses `full-600-cell`.
 
 The recovered reference source is pinned and vendored under `vendor/mpult`, with its original MIT notice. It supplies geometry and the reference macro reader; the actual1.55 application remains authoritative.
 
@@ -96,7 +96,7 @@ No algorithm discovery, AI session or stored eight-million-move solution is need
 
 ## Sharing and preservation
 
-This is a compact runtime/source repository, not the complete research archive. The research folder remains separate. Use Git commits to preserve revisions, and push/copy the repository off this computer to protect against computer failure. A local Git repository alone is not an off-computer backup.
+This repository is the maintained source for future solver development and use. The original research scripts and experiments outside it are deprecated as production entry points and retained as a separate historical archive. Use Git commits to preserve revisions, and push/copy the repository off this computer to protect against computer failure. A local Git repository alone is not an off-computer backup.
 
 The new solver code, generated algorithm data and documentation are available under the [MIT license](LICENSE). The bundled MPUlt reference source retains its [original MIT notice](vendor/mpult/LICENSE). No original MPUlt executable or DirectX binaries are distributed by this repository.
 
