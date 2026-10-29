@@ -19,7 +19,7 @@ The complete workflow has been exercised in the real app. Most importantly, a us
 4. In the copied block, change the first line to `Puzzle full-600-cell` and remove the line `Simplified`. Leave the other settings unchanged.
 5. Save the file, reopen MPUlt and select `full-600-cell` from the puzzle menu before scrambling.
 
-For a complete ready-to-copy block, use [examples/full-600-cell.puzzle.txt](examples/full-600-cell.puzzle.txt). The exact name `full-600-cell` matches the solver and generated macro files. The bundled example log already contains the full definition.
+For a complete ready-to-copy block, use [examples/full-600-cell.puzzle.txt](examples/full-600-cell.puzzle.txt). **The name must be exactly `full-600-cell`: the solver rejects logs saved under any other name with `ValueError: Unsupported puzzle`, even if the puzzle geometry is identical.** This name also matches the generated macro files. The bundled example log already contains the full definition.
 
 The recovered reference source is pinned and vendored under `vendor/mpult`, with its original MIT notice. It supplies geometry and the reference macro reader; the actual1.55 application remains authoritative.
 
