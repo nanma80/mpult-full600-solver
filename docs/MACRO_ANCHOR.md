@@ -1,6 +1,6 @@
 # Where to click when applying the macros
 
-MPUlt 1.55 has **two default views**, depending on how you enter the puzzle. Both cases use the same macro reference point shown below. These screenshots were supplied by the user and are preserved unchanged.
+MPUlt has **two default views**, depending on how you enter the puzzle. Both cases use the same macro reference point shown below. These screenshots were supplied by the user and are preserved unchanged.
 
 ## 1. Selecting the puzzle or starting the app
 

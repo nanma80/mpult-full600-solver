@@ -4,7 +4,7 @@ The original application is available from the [Magic Puzzle Ultimate (MPUlt) pa
 
 The bundled `examples/full_scramble_06.log` is an untouched, app-generated scramble supplied by the maintainer from the updated download. It is preserved byte-for-byte, with its original `600-cell-full` name. SHA256: `f096157eae41b12bc044748fa0bf9e2d3f4084cebca441ceff38abf742111140`. It replaces the briefly included renamed copy of scramble 03. Historical validation records retain the original inputs, names and hashes actually tested at the time. Internal model and calibration identifiers remain unchanged.
 
-MPUlt was created by Andrey Astrelin. MPUlt 1.55 and its generated states are the behavioral reference for this solver. The recovered source is a reference snapshot and is not asserted to be the source of 1.55.
+MPUlt was created by Andrey Astrelin. MPUlt and its generated states are the behavioral reference for this solver. The recovered source is a reference snapshot and is not asserted to match the downloaded executable exactly.
 
 The geometry/reference-reader source under vendor/mpult is pinned to the supplied cutelyaware/MPUlt checkout at commit 0e2b86cbb713b8286083fa964ea67d6582337d5a. Its original README and MIT license notice (copyright 2018 Melinda Green) are preserved. No upstream Git history or executable is bundled.
 

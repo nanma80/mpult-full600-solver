@@ -1,4 +1,4 @@
-MPUlt 1.55 · Full shallow-cut cell-turning 600-cell · Verified checkpoint: 28 October 2026
+MPUlt · Full shallow-cut cell-turning 600-cell · Verified checkpoint: 28 October 2026
 
 
 
@@ -6,7 +6,7 @@ MPUlt 1.55 · Full shallow-cut cell-turning 600-cell · Verified checkpoint: 28 
 
 
 
-**The color-only solver covers all 35 movable piece orbits.** A full solve has been verified in MPUlt 1.55: the separate-step save matches all 259,800 predicted sticker colors with a valid checksum. The user also reports a successful one-shot solve. Only the separate-step result was supplied for file comparison.
+**The color-only solver covers all 35 movable piece orbits.** A full solve has been verified in MPUlt: the separate-step save matches all 259,800 predicted sticker colors with a valid checksum. The user also reports a successful one-shot solve. Only the separate-step result was supplied for file comparison.
 
 
 
@@ -194,7 +194,7 @@ Orbit 17 changes corner orientations but not corner positions. Therefore 17 must
 
 
 
-The order below is the production order validated on the full scramble in MPUlt 1.55. **Orbit IDs are catalog labels, not solve-step numbers.** Each orbit is one user-facing macro step, even when it contains multiple internal phases. There are 35 steps and 47 internal phases; a 36th macro entry concatenates all 35 steps.
+The order below is the production order validated on the full scramble in MPUlt. **Orbit IDs are catalog labels, not solve-step numbers.** Each orbit is one user-facing macro step, even when it contains multiple internal phases. There are 35 steps and 47 internal phases; a 36th macro entry concatenates all 35 steps.
 
 
 
@@ -286,7 +286,7 @@ The verified reflection-related orbit pairs are **6 ↔ 7, 15 ↔ 18, 20 ↔ 21,
 
 
 
-The model passed full solves from two observed full scrambles. The production solution for the exact original full_scramble_02.log contains **7,985,585 moves**. The user ran both the separate steps and the combined macro, and MPUlt 1.55 recognized both as solving a 12,000-twist scramble. The supplied separate-step save matches every 259,800 predicted color and has a valid checksum; the combined solve is user-reported, without a supplied combined save. This is end-to-end validation on this scramble, not an exhaustive actual-app test of all possible states.
+The model passed full solves from two observed full scrambles. The production solution for the exact original full_scramble_02.log contains **7,985,585 moves**. The user ran both the separate steps and the combined macro, and MPUlt recognized both as solving a 12,000-twist scramble. The supplied separate-step save matches every 259,800 predicted color and has a valid checksum; the combined solve is user-reported, without a supplied combined save. This is end-to-end validation on this scramble, not an exhaustive actual-app test of all possible states.
 
 
 
@@ -294,7 +294,7 @@ Additional application validation: the user independently ran the production CLI
 
 
 
-**Independent post-development validation: ** after the solver was complete, the user created a fresh full scramble in MPUlt 1.55, saved full_scramble_03.log, ran the production Python command independently, and applied all 35 macro steps. The puzzle solved. Its saved result matches every 259,800 predicted color exactly with valid checksum. The solution uses 7,982,494 moves; the engine and dependency-graph hashes match the previous validated package. This tests the complete workflow on a new scramble that was not used during solver development.
+**Independent post-development validation: ** after the solver was complete, the user created a fresh full scramble in MPUlt, saved full_scramble_03.log, ran the production Python command independently, and applied all 35 macro steps. The puzzle solved. Its saved result matches every 259,800 predicted color exactly with valid checksum. The solution uses 7,982,494 moves; the engine and dependency-graph hashes match the previous validated package. This tests the complete workflow on a new scramble that was not used during solver development.
 
 
 
@@ -314,7 +314,7 @@ python solve.py INPUT.log --output NEW_DIRECTORY
 
 
 
-The macro reference point is part of the usage instructions. This screenshot, supplied by the user, marks the spot used in the successful MPUlt 1.55 solves. Bring the white cell into the shown orientation and use the red-marked spot just above the central horizontal edge, slightly to the left.
+The macro reference point is part of the usage instructions. This screenshot, supplied by the user, marks the spot used in the successful MPUlt solves. Bring the white cell into the shown orientation and use the red-marked spot just above the central horizontal edge, slightly to the left.
 
 
 

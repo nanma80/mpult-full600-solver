@@ -13,7 +13,7 @@ git push -u origin main
 
 The public repository is [nanma80/mpult-full600-solver](https://github.com/nanma80/mpult-full600-solver), with main as the default branch.
 
-5. Test the public clone instructions from a new folder. Users supply their own MPUlt1.55 installation. Keep generated runs in the ignored runs/ directory.
+5. Test the public clone instructions from a new folder. Users supply their own MPUlt installation. Keep generated runs in the ignored runs/ directory.
 6. Share the repository link, a short explanation of the deterministic orbit-by-orbit approach, and screenshots of the real solve. There is no need to attach the multi-million-move output: readers regenerate it from the small included example or their own scramble.
 
 ## Backup

@@ -30,7 +30,7 @@ This conclusion is supported by floating-point enumeration of candidate geometri
 
 |1|Triangular face center|2|1 per face;1200 total|
 
-|3|Relatively large pieces next to the orbit 1 face center (user visually identified in MPUlt 1.55)|2|3 per face;3600 total|
+|3|Relatively large pieces next to the orbit 1 face center (user visually identified in MPUlt)|2|3 per face;3600 total|
 
 |9, 14, 22, 27, 33|Other triangular-face pieces|2|3 per face for each orbit;3600 per orbit|
 

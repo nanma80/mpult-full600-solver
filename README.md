@@ -1,6 +1,6 @@
 # MPUlt full 600-cell solver
 
-A deterministic, color-only solver for all 35 movable piece orbits of MPUlt 1.55's **full shallow-cut600-cell**. It is a constructive solver, not a short-solution optimizer. Typical solutions contain about eight million moves.
+A deterministic, color-only solver for all 35 movable piece orbits of MPUlt's **full shallow-cut 600-cell**. It is a constructive solver, not a short-solution optimizer. Typical solutions contain about eight million moves.
 
 The complete workflow has been exercised in the real app. Most importantly, a user created a fresh scramble after solver development, ran the command independently, applied all 35 macros, and saved a solved result matching every 259,800 predicted sticker color. See [validation](docs/VALIDATION.md).
 
@@ -8,12 +8,12 @@ The complete workflow has been exercised in the real app. Most importantly, a us
 
 - 64-bit Windows; the build uses the .NET Framework 4.x C# compiler.
 - Python 3.10 or newer. Solving uses the Python standard library; no pip packages are required.
-- Your own working MPUlt 1.55 application folder containing the three Microsoft.DirectX DLLs. The app and DLLs are not included here.
+- Your own working MPUlt application folder containing the three Microsoft.DirectX DLLs. The app and DLLs are not included here.
 - The full 600-cell puzzle, named `600-cell-full` in the latest MPUlt download. The included example already has the right definition.
 
 ## Download MPUlt and enable the full 600-cell
 
-1. Open the [Magic Puzzle Ultimate (MPUlt) page](https://superliminal.com/andrey/mpu/) and follow **“Download the puzzle here”**. Extract the download into a folder. This solver is tested with MPUlt 1.55; make sure the application runs before setting up the solver.
+1. Open the [Magic Puzzle Ultimate (MPUlt) page](https://superliminal.com/andrey/mpu/) and follow **“Download the puzzle here”**. Extract the download into a folder. Make sure the application runs before setting up the solver.
 2. In the latest package (updated 2026-10-28), select **`600-cell-full`** from the puzzle menu before scrambling. The full puzzle is already included; no text-file editing is required. `600-cell-simplified` is the separate simplified version.
 
 ### Existing installations
@@ -30,14 +30,14 @@ For a complete ready-to-copy menu block, use [examples/600-cell-full.puzzle.txt]
 
 **Custom puzzle names are supported:** `600-cell-full`, `full-600-cell`, or simply `600-cell` all work. The solver reads the name from your input log and preserves it in generated macros and expected-state logs. Names must be a single token without whitespace. The remaining definition must exactly match the supported full puzzle, including `Cuts 0.968 -0.968` and no `Simplified` line; changing the name does not relax the geometry check. The bundled example uses `600-cell-full`.
 
-The recovered reference source is pinned and vendored under `vendor/mpult`, with its original MIT notice. It supplies geometry and the reference macro reader; the actual1.55 application remains authoritative.
+The recovered reference source is pinned and vendored under `vendor/mpult`, with its original MIT notice. It supplies geometry and the reference macro reader; the downloaded MPUlt application remains authoritative.
 
 ## Set up
 
 Clone/download this repository, then from its root run:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1 -MPUltDirectory "C:\path\to\MPUlt_1.55"
+powershell -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1 -MPUltDirectory "C:\path\to\MPUlt"
 python doctor.py --engine
 ```
 

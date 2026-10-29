@@ -1,4 +1,4 @@
-"""v1.55 log serialization, verified against supplied application files."""
+"""MPUlt log serialization, verified against supplied application files."""
 from pathlib import Path
 from .log_reader import read_log
 from .state import validate_name

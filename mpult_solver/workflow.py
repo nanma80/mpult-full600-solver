@@ -83,7 +83,7 @@ def solve_supported(source,output,orbits=None):
     whole_puzzle_solved=all(c==p//433 for p,c in enumerate(data['colors']))
     counts={n:len(w)//4 for n,w in steps};counts[joint]=sum(counts.values())
     files=[out/'joint_solution.dat',anchor_image,start_view,*logs]
-    manifest=dict(status='model integration PASS; manual v1.55 integration pending',source_path=str(source),source_sha256=source_hash,
+    manifest=dict(status='model integration PASS; manual MPUlt integration pending',source_path=str(source),source_sha256=source_hash,
                   puzzle_name=puzzle_name,strict_color_input_sha256=digest(internal/'input.color.json'),engine_sha256=digest(ROOT/'MoveEngine.exe'),dependency_graph_sha256=digest(graph_path),
                   schedule=schedule,whole_puzzle_solved=whole_puzzle_solved,solved_colors=len(controlled),other_unchanged_colors=len(outside),macro_turns=counts,stages=statistics,
                   macro_entries=len(steps)+1,packed_move_roundtrip='PASS',reference_macro_reader='PASS',source_unchanged=True,
@@ -92,7 +92,7 @@ def solve_supported(source,output,orbits=None):
     bullets='\n'.join(f'{i}. `{name}` â€” {len(word)//4:,} turns; expected save `{logs[i-1].name}`.' for i,(name,word) in enumerate(steps,1))
     (out/'README.md').write_text(f'''# Full-scramble integration of {len(schedule)} supported orbits
 
-Start by opening this exact log in MPUlt1.55:
+Start by opening this exact log in MPUlt:
 
     {start}
 
@@ -125,7 +125,7 @@ Compare an actual saved result using:
 
     python check.py "{logs[-1]}" "{out/'results/after_steps.log'}"
 
-All phases were computed from colors only and fully simulated. Every completed orbit was checked after every stage, unsupported colors were checked unchanged, expected-log checksums were verified, and all packed codes were read back. The recovered reference macro reader also loaded all {len(steps)+1} entries and matched every code to the simulated words. Real MPUlt1.55 integration remains pending until actual saved results are compared.
+All phases were computed from colors only and fully simulated. Every completed orbit was checked after every stage, unsupported colors were checked unchanged, expected-log checksums were verified, and all packed codes were read back. The recovered reference macro reader also loaded all {len(steps)+1} entries and matched every code to the simulated words. Real MPUlt integration remains pending until actual saved results are compared.
 
 Reproduce from any valid full-600-cell log with:
 
