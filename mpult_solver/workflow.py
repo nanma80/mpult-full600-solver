@@ -94,7 +94,7 @@ Start by opening this exact log in MPUlt1.55:
 
     {start}
 
-Load `joint_solution.dat`. Bring the white cell into the usual view and use the established top-face anchor above the horizontal edge, slightly left. The red mark in the screenshot below shows the reference point. This package does not require replacing the source with a derived log. The source SHA256 is in manifest.json and was unchanged throughout generation.
+Load `joint_solution.dat`. Opening a `.log` file starts with the white cell out of sight: hold the right mouse button and drag downward a little until it emerges from behind the camera and comes into view. Selecting the puzzle from the menu, or starting the app with it automatically loaded, already places the white cell at the front and needs no view adjustment. Use the established top-face anchor above the horizontal edge, slightly left. The red mark in the screenshot below shows the reference point. This package does not require replacing the source with a derived log. The source SHA256 is in manifest.json and was unchanged throughout generation.
 
 ![Macro reference point marked in red](macro_anchor.png)
 

@@ -10,7 +10,12 @@ This is the reference point used in the successful MPUlt 1.55 full-solve tests. 
 
 
 
-Bring the white cell into the orientation shown. Locate its central horizontal edge. When applying a macro, use the spot marked in red: on the white cell, just above that edge and slightly to the left. The red mark is an annotation in this screenshot, not a marker supplied by MPUlt.
+MPUlt 1.55 has two different starting viewpoints, depending on how you enter the puzzle:
+
+- **Selecting the full 600-cell from the puzzle menu, or starting the app with this puzzle automatically loaded:** the white cell is already at the front, centered in the view. The reference point is directly clickable; no view adjustment is needed.
+- **Opening a `.log` file:** the viewpoint changes, and the white cell is initially out of sight. Hold the right mouse button and drag downward a little until the white cell emerges from behind the camera and comes into view, as in the screenshot. This is the view adjustment needed when loading a saved scramble for a generated solution.
+
+Once the white cell is visible, locate its central horizontal edge. When applying a macro, use the spot marked in red: on the white cell, just above that edge and slightly to the left. The red mark is an annotation in this screenshot, not a marker supplied by MPUlt.
 
 
 

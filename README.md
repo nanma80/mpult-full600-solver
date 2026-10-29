@@ -54,7 +54,7 @@ Large generated macros/logs are deliberately not committed. They are disposable,
 
 ## Apply in MPUlt
 
-Open the **same exact input log** used for generation. Load the generated `joint_solution.dat`. Bring the white cell into the shown view and apply each step at the red-marked reference point. Keep the same point for all steps. See the [reference screenshot](docs/MACRO_ANCHOR.md).
+Open the **same exact input log** used for generation. Load the generated `joint_solution.dat`. After opening a log, hold the right mouse button and drag downward a little until the white cell emerges into view; selecting the puzzle from the menu starts with that cell already in front. Apply each step at the red-marked reference point, keeping the same point for all steps. See the [view instructions and reference screenshot](docs/MACRO_ANCHOR.md).
 
 Apply either all 35 steps separately in order OR the combined entry once, from that original state. Follow the generated README. A combined run is long; separate entries allow staged execution.
 
