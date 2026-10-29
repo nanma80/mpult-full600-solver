@@ -10,6 +10,16 @@ This reference describes physical piece orbits in the full shallow-cut 600-cell.
 
 
 
+## Why this is the shallow-cut 600-cell
+
+The full puzzle inherits `Cuts 0.968 -0.968` from the downloaded MPUlt puzzle definition; enabling it only requires removing `Simplified` from a copied puzzle block. The cut value does not need to change.
+
+Here, the shallow-cut regime means that making the cuts arbitrarily shallower preserves the same pieces, sticker incidences and corresponding move permutations. In MPUlt's normalization, larger positive cut values approach the cell's supporting hyperplane at `1`.
+
+A cutting-plane event enumeration on the ideal regular geometry finds the first structural transition below `1` at approximately **0.9635254916**, consistent with the exact expression `(1 + 3 sqrt(5)) / 8`. There are no detected transitions between that threshold and `1`. Since **0.968 > 0.9635254916**, the inherited value lies in the stable shallow-cut regime: it gives the same abstract puzzle as cuts arbitrarily close to `1`, while keeping the pieces at a finite size.
+
+This conclusion is supported by floating-point enumeration of candidate geometric events, rather than a certified exact-arithmetic proof. It concerns ideal geometry; values extremely close to `1` can encounter the simulator's numerical tolerances. The author's supplied `0.968` is an appropriate choice.
+
 ## Geometric locations
 
 
