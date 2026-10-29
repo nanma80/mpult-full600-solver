@@ -1298,9 +1298,9 @@
       "bytes": 293,
       "sha256": "c2d109546a8e55af3ea34980ce3412042ae2ce9df6a597b0c04ff5a8143db568"
     },
-    "examples/full_scramble_03.log": {
-      "bytes": 641154,
-      "sha256": "bf7a4bf708e94af01aea73dd89f575f98bb2d1042b727673a68688d47fb241aa"
+    "examples/full_scramble_06.log": {
+      "bytes": 641133,
+      "sha256": "f096157eae41b12bc044748fa0bf9e2d3f4084cebca441ceff38abf742111140"
     }
   }
 }

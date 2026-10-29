@@ -48,7 +48,7 @@ Setup compiles the native engine and copies the required DLLs from your applicat
 Use a new output directory for each run:
 
 ```powershell
-python solve.py examples/full_scramble_03.log --output runs/example03
+python solve.py examples/full_scramble_06.log --output runs/example06
 ```
 
 Or scramble the full puzzle in MPUlt, save a log and pass that file instead. The original input is not changed. The strict adapter passes only colors and puzzle definition into solver planning; scramble history never becomes solving input.
@@ -70,7 +70,7 @@ Apply either all 35 steps separately in order OR the combined entry once, from t
 If you save the final app state, compare it with:
 
 ```powershell
-python check.py runs/example03/35_expected_after_29.log runs/example03/results/after_steps.log
+python check.py runs/example06/35_expected_after_29.log runs/example06/results/after_steps.log
 ```
 
 The picture marks a geometric location, not a fixed screen coordinate; camera scale and sticker colors can differ. The result should be a completely solved puzzle.
