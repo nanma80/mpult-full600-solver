@@ -1,6 +1,6 @@
 # Provenance and attribution
 
-The original application is available from [Andrey Astrelin’s MPUlt page](https://superliminal.com/andrey/mpu/), through “Download the puzzle here”. Melinda Green updated the download package on 2026-10-28 to include `600-cell-full` alongside `600-cell-simplified`. The root README recommends the latest package and retains manual setup instructions for older installations.
+The original application is available from the [Magic Puzzle Ultimate (MPUlt) page](https://superliminal.com/andrey/mpu/), hosted by Melinda Green, through “Download the puzzle here”. Melinda Green updated the download package on 2026-10-28 to include `600-cell-full` alongside `600-cell-simplified`. The root README recommends the latest package and retains manual setup instructions for older installations.
 
 The bundled `examples/full_scramble_06.log` is an untouched, app-generated scramble supplied by the maintainer from the updated download. It is preserved byte-for-byte, with its original `600-cell-full` name. SHA256: `f096157eae41b12bc044748fa0bf9e2d3f4084cebca441ceff38abf742111140`. It replaces the briefly included renamed copy of scramble 03. Historical validation records retain the original inputs, names and hashes actually tested at the time. Internal model and calibration identifiers remain unchanged.
 

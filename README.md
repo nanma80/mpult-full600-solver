@@ -13,7 +13,7 @@ The complete workflow has been exercised in the real app. Most importantly, a us
 
 ## Download MPUlt and enable the full 600-cell
 
-1. Open [Andrey Astrelin’s MPUlt page](https://superliminal.com/andrey/mpu/) and follow **“Download the puzzle here”**. Extract the download into a folder. This solver is tested with MPUlt 1.55; make sure the application runs before setting up the solver.
+1. Open the [Magic Puzzle Ultimate (MPUlt) page](https://superliminal.com/andrey/mpu/) and follow **“Download the puzzle here”**. Extract the download into a folder. This solver is tested with MPUlt 1.55; make sure the application runs before setting up the solver.
 2. In the latest package (updated 2026-10-28), select **`600-cell-full`** from the puzzle menu before scrambling. The full puzzle is already included; no text-file editing is required. `600-cell-simplified` is the separate simplified version.
 
 ### Existing installations
