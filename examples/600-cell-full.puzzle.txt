@@ -1,4 +1,4 @@
-Puzzle full-600-cell
+Puzzle 600-cell-full
 Dim 4
 NAxis 1
 Faces 4.236068,1,1,1
@@ -7,4 +7,3 @@ Axis 4.236068,1,1,1
 Twists 0,1.618034,-0.618034,-1/-0.618034,1,0,1.618034 0,2,-1,-1/0,1,1,-2
 Cuts 0.968 -0.968
 FixedMask 2
-EndPuzzle

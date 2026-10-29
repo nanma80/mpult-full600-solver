@@ -12,7 +12,7 @@ This reference describes physical piece orbits in the full shallow-cut 600-cell.
 
 ## Why this is the shallow-cut 600-cell
 
-The full puzzle inherits `Cuts 0.968 -0.968` from the downloaded MPUlt puzzle definition; enabling it only requires removing `Simplified` from a copied puzzle block. The cut value does not need to change.
+The full puzzle, named `600-cell-full` in the latest download, inherits `Cuts 0.968 -0.968` from MPUlt's supplied definition. Older installations can enable the same puzzle by removing `Simplified` from a copied puzzle block. The cut value does not need to change.
 
 Here, the shallow-cut regime means that making the cuts arbitrarily shallower preserves the same pieces, sticker incidences and corresponding move permutations. In MPUlt's normalization, larger positive cut values approach the cell's supporting hyperplane at `1`.
 

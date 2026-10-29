@@ -9,17 +9,26 @@ The complete workflow has been exercised in the real app. Most importantly, a us
 - 64-bit Windows; the build uses the .NET Framework 4.x C# compiler.
 - Python 3.10 or newer. Solving uses the Python standard library; no pip packages are required.
 - Your own working MPUlt 1.55 application folder containing the three Microsoft.DirectX DLLs. The app and DLLs are not included here.
-- The full 600-cell definition, with the `Simplified` line removed. The included example already has the right definition.
+- The full 600-cell puzzle, named `600-cell-full` in the latest MPUlt download. The included example already has the right definition.
 
 ## Download MPUlt and enable the full 600-cell
 
 1. Open [Andrey Astrelin’s MPUlt page](https://superliminal.com/andrey/mpu/) and follow **“Download the puzzle here”**. Extract the download into a folder. This solver is tested with MPUlt 1.55; make sure the application runs before setting up the solver.
-2. Open `MPUlt_puzzles.txt` in that application folder. The default `600-cell` entry describes the **simplified** puzzle.
-3. Duplicate the entire block starting with `Puzzle 600-cell` and ending with its matching `EndPuzzle`. Keep the original block so the simplified puzzle remains available.
-4. In the copied block, change the first line to `Puzzle full-600-cell` and remove the line `Simplified`. Leave the other settings unchanged.
-5. Save the file, reopen MPUlt and select `full-600-cell` from the puzzle menu before scrambling.
+2. In the latest package (updated 2026-10-28), select **`600-cell-full`** from the puzzle menu before scrambling. The full puzzle is already included; no text-file editing is required. `600-cell-simplified` is the separate simplified version.
 
-For a complete ready-to-copy block, use [examples/full-600-cell.puzzle.txt](examples/full-600-cell.puzzle.txt). **Custom puzzle names are supported:** `full-600-cell`, `600-cell-full`, or simply `600-cell` all work. The solver reads the name from your input log and preserves it in generated macros and expected-state logs. Names must be a single token without whitespace. The remaining definition must exactly match the supported full puzzle, including `Cuts 0.968 -0.968` and no `Simplified` line; changing the name does not relax the geometry check. If keeping both versions, you can name the simplified one `600-cell-simplified`. The bundled example uses `full-600-cell`.
+### Existing installations
+
+The simplest option is to download the latest ZIP and extract it into a new folder. To keep an older installation, you can instead copy `MPUlt_puzzles.txt` from the latest package into that installation; preserve any personal puzzle definitions before replacing the file.
+
+Alternatively, edit the older installation's `MPUlt_puzzles.txt` manually:
+
+1. Find the simplified 600-cell block, typically named `Puzzle 600-cell` in older downloads. Copy the entire block, stopping before the next `Puzzle` line (or at the end of the file). Menu definitions do **not** use `EndPuzzle`; that marker is used in logs.
+2. Name the copy `Puzzle 600-cell-full` and remove its `Simplified` line. Leave all other settings unchanged, including `Cuts 0.968 -0.968`. Keep the original simplified block; you may rename it `Puzzle 600-cell-simplified`.
+3. Save the file, reopen MPUlt and select `600-cell-full`.
+
+For a complete ready-to-copy menu block, use [examples/600-cell-full.puzzle.txt](examples/600-cell-full.puzzle.txt).
+
+**Custom puzzle names are supported:** `600-cell-full`, `full-600-cell`, or simply `600-cell` all work. The solver reads the name from your input log and preserves it in generated macros and expected-state logs. Names must be a single token without whitespace. The remaining definition must exactly match the supported full puzzle, including `Cuts 0.968 -0.968` and no `Simplified` line; changing the name does not relax the geometry check. The bundled example uses `600-cell-full`.
 
 The recovered reference source is pinned and vendored under `vendor/mpult`, with its original MIT notice. It supplies geometry and the reference macro reader; the actual1.55 application remains authoritative.
 

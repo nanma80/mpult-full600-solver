@@ -27,7 +27,7 @@ class InputTests(unittest.TestCase):
             root=Path(folder)
             for name in ['full-600-cell','600-cell-full','600-cell','my_puzzle']:
                 source=root/'input.log'
-                text=(ROOT/'examples/full_scramble_03.log').read_bytes().replace(b'full-600-cell',name.encode())
+                text=(ROOT/'examples/full_scramble_03.log').read_bytes().replace(b'600-cell-full',name.encode())
                 source.write_bytes(text)
                 verify_log(source)
                 state=export(source,root/'colors.json')
@@ -55,7 +55,10 @@ class PublicCommandTests(unittest.TestCase):
     def compare(self,actual,expected_match):
         with tempfile.TemporaryDirectory() as folder:
             path=Path(folder)/'actual.log';shutil.copyfile(actual,path)
-            run=subprocess.run([sys.executable,str(ROOT/'check.py'),str(BASELINE),str(path)],cwd=folder,capture_output=True,text=True)
+            expected=Path(folder)/'expected.log'
+            name=verify_log(path)['description'][0][len('Puzzle '):]
+            expected.write_bytes(BASELINE.read_bytes().replace(b'full-600-cell',name.encode()))
+            run=subprocess.run([sys.executable,str(ROOT/'check.py'),str(expected),str(path)],cwd=folder,capture_output=True,text=True)
             self.assertEqual(run.returncode,0 if expected_match else 1,run.stderr)
             result=json.loads(run.stdout);self.assertEqual(result['match'],expected_match);self.assertTrue(result['crc_verified'])
     def test_check_matches_from_another_working_directory(self):self.compare(BASELINE,True)

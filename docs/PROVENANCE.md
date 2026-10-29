@@ -1,6 +1,8 @@
 # Provenance and attribution
 
-The original application is available from [Andrey Astrelin’s MPUlt page](https://superliminal.com/andrey/mpu/), through “Download the puzzle here”. The root README explains how to customize the default simplified 600-cell into the full puzzle.
+The original application is available from [Andrey Astrelin’s MPUlt page](https://superliminal.com/andrey/mpu/), through “Download the puzzle here”. Melinda Green updated the download package on 2026-10-28 to include `600-cell-full` alongside `600-cell-simplified`. The root README recommends the latest package and retains manual setup instructions for older installations.
+
+The bundled `examples/full_scramble_03.log` now uses the menu name `600-cell-full` in its two name fields. Its original name was `full-600-cell`; only those fields were changed, preserving its colors, scramble sequence and checksum. Historical validation records retain the names and hashes actually tested at the time. Internal model and calibration identifiers remain unchanged.
 
 MPUlt was created by Andrey Astrelin. MPUlt 1.55 and its generated states are the behavioral reference for this solver. The recovered source is a reference snapshot and is not asserted to be the source of 1.55.
 

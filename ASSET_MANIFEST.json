@@ -1282,6 +1282,10 @@
       "bytes": 524050,
       "sha256": "e5f881509fe14d3930042a840bc63c8cd38fdb25cf0745f6c5e581ce4566fac8"
     },
+    "assets/reference/log_start_view.png": {
+      "bytes": 1534193,
+      "sha256": "57cece8c16ff93634398c97a2e3fc2fac11b8b9384147aaa2d6cdc82ee4f8d0b"
+    },
     "assets/reference/macro_anchor.png": {
       "bytes": 2618086,
       "sha256": "a0abc88e6f1d53e343852eda8d4dd9e3f2f2070ca69ef13b89ed793b17ed9a31"
@@ -1290,17 +1294,13 @@
       "bytes": 475,
       "sha256": "4f7f211351f6671e302a80e38dc975109836feee264bf18dccab372743cab757"
     },
-    "examples/full-600-cell.puzzle.txt": {
-      "bytes": 304,
-      "sha256": "28e3ab5b1027e9ba1753ff132e685c219584e4a1c77afe570da4d432cee7ff17"
+    "examples/600-cell-full.puzzle.txt": {
+      "bytes": 293,
+      "sha256": "c2d109546a8e55af3ea34980ce3412042ae2ce9df6a597b0c04ff5a8143db568"
     },
     "examples/full_scramble_03.log": {
       "bytes": 641154,
-      "sha256": "7e280f65a0a72577132d036135c8a484bb6eab85f8dc6202ac48cd593a2d28e2"
-    },
-    "assets/reference/log_start_view.png": {
-      "bytes": 1534193,
-      "sha256": "57cece8c16ff93634398c97a2e3fc2fac11b8b9384147aaa2d6cdc82ee4f8d0b"
+      "sha256": "bf7a4bf708e94af01aea73dd89f575f98bb2d1042b727673a68688d47fb241aa"
     }
   }
 }

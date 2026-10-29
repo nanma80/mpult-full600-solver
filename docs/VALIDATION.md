@@ -9,8 +9,11 @@ The solver covers259800 sticker positions,177,120 sticker-bearing pieces,176,520
 |full_scramble.log|7,943,906|User ran the production workflow and reported a solved puzzle|
 |full_scramble_02.log|7,985,585|Separate-step save exactly matches all 259,800 colors with valid CRC; combined solve also user-reported|
 |full_scramble_03.log|7,982,494|Fresh post-development scramble, workflow run independently; saved result exactly matches all 259,800 colors with valid CRC|
+|full_scramble_06.log|7,968,164|Updated 2026-10-28 download, named `600-cell-full`; user reports success and screenshots show the app's solved popup after both combined and separate-step execution|
 
-The included example is the original small full_scramble_03 input, not a solution log. It contains 12000 scramble moves, but planning receives only its current colors and definition. The third test is especially useful because the scramble was created after solver development.
+The included example preserves the small full_scramble_03 input's colors and history, with its two puzzle-name fields updated to `600-cell-full` to match the current download. It is not a solution log. It contains 12000 scramble moves, but planning receives only its current colors and definition. The third test is especially useful because the scramble was created after solver development.
+
+The full_scramble_06 package manifest confirms the custom name, full model solve and unchanged input (SHA256 `f096157eae41b12bc044748fa0bf9e2d3f4084cebca441ceff38abf742111140`). Both screenshots show “You have solved 600-cell-full puzzle scrambled by 12000 twists. Congratulations!” and a move count of 7,968,164. No actual final-state log was supplied for this run, so this is app-popup and user-reported validation rather than an additional sticker-by-sticker comparison. It also confirms successful completion and the customized name in the final dialog.
 
 The orientation/routing methods also passed model checks on broad synthetic legal states, exact label permutations and invalid inputs. See the overview for local group constraints and the strategy. Actual-app tests are concrete end-to-end evidence; the completeness/termination argument comes from the constructive model methods.
 
