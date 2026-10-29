@@ -74,7 +74,7 @@ def solve_supported(source,output,orbits=None):
         progress('solving',completed=schedule[:index],schedule=schedule,turns_so_far=sum(len(w)//4 for n,w in steps))
     if done!=controlled or any(data['colors'][p]!=(p//433 if p in controlled else initial['colors'][p]) for p in range(259800)):raise ValueError('Final integration isolation check failed')
     progress('packaging',completed=schedule)
-    joint='all_steps_'+ '_'.join(map(str,schedule));write_macros(out/'joint_solution.dat',steps,joint,puzzle_name=puzzle_name)
+    joint='all_steps';write_macros(out/'joint_solution.dat',steps,joint,puzzle_name=puzzle_name)
     native_rows.append((joint,[paths[0] for name,paths in native_rows]))
     (out/'macro_expected.tsv').write_text('\n'.join(name+'\t'+';'.join(map(str,paths)) for name,paths in native_rows))
     with (out/'native_macro_execution.txt').open('w') as log:
